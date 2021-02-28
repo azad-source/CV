@@ -1,0 +1,151 @@
+{
+    "contacts": {
+        "Name": {
+            "href": false,
+            "title": "Azad MAMEDOV",
+            "font-awesome": false
+        },
+        "Position": {
+            "href": false,
+            "title": "Frontend Developer",
+            "font-awesome": false
+        },
+        "Country": {
+            "href": false,
+            "title": "Russia",
+            "font-awesome": false
+        },
+        "Region": {
+            "href": false,
+            "title": "Samarskaya oblast",
+            "font-awesome": false
+        },
+        "City": {
+            "href": false,
+            "title": "Samara",
+            "font-awesome": false
+        },
+        "e-mail": {
+            "href": "mailto:azad_63_mamedov@mail.ru",
+            "title": "azad_63_mamedov@mail.ru",
+            "font-awesome": "fas fa-envelope"
+        },
+        "telegram": {
+            "href": "https://t.me/azad_63_mamedov",
+            "title": "@azad_63_mamedov",
+            "font-awesome": "fab fa-telegram"
+        },
+        "facebook": {
+            "href": "https://www.facebook.com/azad.mamedov.338/",
+            "title": "azad.mamedov.338",
+            "font-awesome": "fab fa-facebook"
+        },
+        "linkedin": {
+            "href": "https://www.linkedin.com/in/azad-mamedov-0563489a/",
+            "title": "azad-mamedov-0563489a",
+            "font-awesome": "fab fa-linkedin"
+        },
+        "Phone": {
+            "href": "tel:+79276951562",
+            "title": "+7 927 695 15 62",
+            "font-awesome": false
+        }
+    },
+    "about": "I have more than 3 years of experience in web development and I really like to work with customers and provide high-quality service and quick responses. I like to discover new technologies, search out for effective decisions, and grow as a professional. Working with a variety of technologies and tools helps me to use proven best practices for existing challenges, predict application behavior and prevent bugs and incidents. Contact me if you want to work with a reliable and experienced developer. Lets get the job done!",
+    "education": {
+        "1": {
+            "degree": "Bachelor Of Engineering (aircraft engines and power plants)",
+            "establishment": "Samara State Aerospace University",
+            "date": "september 2008 - july 2011",
+            "description": ""
+        },
+        "2": {
+            "degree": "Master Of Engineering (Aircraft Engine)",
+            "establishment": "Samara State Aerospace University",
+            "date": "september 2011 - july 2014",
+            "description": ""
+        }
+    },
+    "experience": {
+        "1": {
+            "employe": "Mechanical Engineer",
+            "company": "Safran SMARTEC - Samara",
+            "date": "feb  2014 - dec 2018",
+            "description": "Structural linear and nonlinear analysis of the intermediate engine mount for LEAP-1, starting from the creation of finite element model, application of boundary conditions and definition materials property, and ending with the launch of the calculation and post processing of results. Life time calculation and modal analysis to determine natural frequencies. Software I used: ICEM (to create the mesh) Patran (to create meshing and boundary conditions) Ansys Workbench (for geometry preparation, to create mesh, boundary condition and to start the calculation) Samcef (to create condition to the limits and launch of the linear / non-linear computation (asef / mechanics)) Abaqus (to create boundary condition and to start the computation linear / nonlinear) At the end, an analysis of the results, and a report."
+        },
+        "2": {
+            "employe": "Web Developer",
+            "company": "Plusmedia - Samara",
+            "date": "jan 2019 – to Present",
+            "description": "Development, support and seo promotion of websites of any complexity on cms modx, bitrix, simpla, wordperss, joomla. Working with API of modx and bitrix. Preparing of environment for the website release, installation of modules (nginx, apache, php, sql etc) and their configuration. Request processing speed optimization on the website. Languages used in development: html5, css3, javascript, jquery, php, mysql. At the moment I am studying the development of websites on React."
+        }
+    },
+    "portfolios": {
+        "Java Script Vanilla": {
+            "1": {
+                "name": "Webdev",
+                "link": "https://malishbob.github.io/CV/portfolios/webdev/",
+                "image": "webdev.png"
+            },
+            "2": {
+                "name": "Calculator",
+                "link": "https://malishbob.github.io/CV/portfolios/calculator/",
+                "image": "calculator.png"
+            },
+            "3": {
+                "name": "Momentum",
+                "link": "https://malishbob.github.io/CV/portfolios/momentum/",
+                "image": "momentum.png"
+            },
+            "4": {
+                "name": "Virtual keyboard",
+                "link": "https://malishbob.github.io/CV/portfolios/virtual-keyboard/",
+                "image": "virtual-keyboard.png"
+            },
+            "5": {
+                "name": "Pure water",
+                "link": "https://malishbob.github.io/CV/portfolios/pure-water/",
+                "image": "pure-water.png"
+            }
+        }
+    },
+    "skills": {
+        "CMS / Frameworks / library": {
+            "ReactJS, Redux": "5%",
+            "React Components": "5%",
+            "Node JS": "5%",
+            "Bitrix, MODX, WordPress": "70%"
+        },
+        "Languages": {
+            "HTML5": "90%",
+            "CSS3": "90%",
+            "JavaScript ES6+": "40%",
+            "TypeScript": "20%",
+            "Jquery": "70%",
+            "PHP": "40%",
+            "SQL": "40%"
+        },
+        "Other": {
+            "linux": "40%",
+            "apache": "45%",
+            "nginx": "45%",
+            "git": "40%",
+            "webpack": "50%",
+            "gulp": "10",
+            "SASS/LESS": "60%"
+        }
+    },
+    "language": {
+        "1": {
+            "language": "english",
+            "level": "A2",
+            "description": "intermediate, conversational, competent"
+        },
+        "2": {
+            "language": "french",
+            "level": "B1",
+            "description": "had experience of correspondence and communication with native speakers"
+        }
+    }
+
+}

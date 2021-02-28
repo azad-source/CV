@@ -1,0 +1,85 @@
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat;
+    background-image: url(../../assets/images/main-bg.png);
+    background-attachment: fixed;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: normal;
+    font-family: 'NotoSansJP-Regular', sans-serif;
+    color: $main-color;
+}
+
+h1 {
+    color: $main-text-color;
+    letter-spacing: 3px;
+    font-size: 2.5rem;
+    border-bottom: 1px solid $second-color;
+    padding: 5px 0;
+    font-family: 'NotoSansJP-Bold', sans-serif;
+    font-weight: normal;
+    @media screen and (map-get($breakpoints, mobile)) {
+        font-size: 2rem;
+    }
+    @media screen and (map-get($breakpoints, s-mobile)) {
+        font-size: 1.7rem;
+    }
+}
+
+h2 {
+    color: $main-color;
+    letter-spacing: 2px;
+    font-size: 1.7rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 2px solid $second-color;
+    margin-bottom: 30px;
+    font-family: 'NotoSansJP-Bold', sans-serif;
+    font-weight: normal;
+    @media screen and (map-get($breakpoints, mobile)) {
+        font-size: 1.5rem;
+        padding: 12px 0;
+    }
+}
+
+h3 {
+    font-family: 'NotoSansJP-Bold', sans-serif;
+    font-weight: normal;
+    @media screen and (map-get($breakpoints, laptop)) {
+        font-size: 1rem;
+    }
+}
+
+h4 {
+    color: $main-text-color;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e9e9e9;
+    margin-bottom: 30px;
+    font-family: 'NotoSansJP-Bold', sans-serif;
+    font-weight: normal;
+}
+
+main {
+    margin-top: 54px;
+}
+
+section {
+    // height: 700px;
+    @media screen and (map-get($breakpoints, desktop)) {
+        height: unset;
+    }
+}
+
+.fas,
+.fab {
+    color: $main-color;
+    font-size: 28px;
+}

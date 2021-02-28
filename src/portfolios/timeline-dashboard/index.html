@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru" />
+<body>
+	<head>
+		<link rel="stylesheet" type="text/css" href="./fonts/stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="./styles/all.css" />
+	</head>
+	
+	<h1>Контроль рабочих мест</h1>
+	<main id="timeline_day"></main>
+	<main id="timeline_week"></main>
+	<main id="timeline_month"></main>
+	<script src="scripts/main.js" type="text/javascript"></script>
+
+	<script>
+		let timelineProps = {
+			"sum": ["presence", "other", "absence"],
+			"items": {
+				"presence": {
+					"color": "#25BF3E",
+					"caption": "Присутствие"
+				},
+				"absence": {
+					"color": "#DD4F4F",
+					"caption": "Отсутствие"
+				},
+				"other": {
+					"color": "#208FCD",
+					"caption": "Другой человек"
+				},
+				"relax": {
+					"color": "#E4E4E4",
+					"caption": "Перерыв на отдых"
+				}
+			}
+		};
+
+		// timeline DAY
+		let timelineDay = new TimelineDay("#timeline_day", timelineProps);
+		timelineDay.init();
+		timelineDay.loadTimline(data["timelineDay"]);
+		
+
+		// timeline WEEK
+		let timelineWeek = new TimelineWeek("#timeline_week", timelineProps);
+		timelineWeek.init();
+		timelineWeek.loadTimline(data["timelineWeek"]);
+		
+
+		// timeline MONTH
+		let timelineMonth = new TimelineMonth("#timeline_month", timelineProps);
+		timelineMonth.init();
+		timelineMonth.loadTimline(data["timelineMonth"]);
+	</script>
+</body>
+</html>
