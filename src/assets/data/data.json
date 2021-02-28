@@ -84,7 +84,7 @@
         "Java Script Vanilla": {
             "1": {
                 "name": "Webdev",
-                "link": "https://malishbob.github.io/CV/portfolios/webdev/",
+                "link": "./portfolios/webdev/",
                 "image": "webdev.png"
             },
             "2": {
