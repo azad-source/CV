@@ -81,7 +81,7 @@
         }
     },
     "portfolios": {
-        "Java Script Vanilla": {
+        "Java Script ES5/ES6/ES7": {
             "1": {
                 "name": "Webdev",
                 "link": "./portfolios/webdev/",
@@ -119,24 +119,22 @@
             "ReactJS, Redux": "5%",
             "React Components": "5%",
             "Node JS": "5%",
-            "Bitrix, MODX, WordPress": "70%"
+            "Bitrix, MODX, WordPress": "70%",
+            "Jquery": "70%"
         },
         "Languages": {
             "HTML5": "90%",
             "CSS3": "90%",
             "JavaScript ES6+": "40%",
             "TypeScript": "20%",
-            "Jquery": "70%",
-            "PHP": "40%",
+            "PHP7+": "40%",
             "SQL": "40%"
         },
         "Other": {
             "linux": "40%",
-            "apache": "45%",
-            "nginx": "45%",
-            "git": "40%",
-            "webpack": "50%",
-            "gulp": "10",
+            "apache/nginx": "45%",
+            "git/git flow": "40%",
+            "webpack/gulp": "10%",
             "SASS/LESS": "60%"
         }
     },
