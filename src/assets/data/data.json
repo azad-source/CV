@@ -76,8 +76,14 @@
         "2": {
             "employe": "Web Developer",
             "company": "Plusmedia - Samara",
-            "date": "jan 2019 – to Present",
+            "date": "jan 2019 – feb 2021",
             "description": "Development, support and seo promotion of websites of any complexity on cms modx, bitrix, simpla, wordperss, joomla. Working with API of modx and bitrix. Preparing of environment for the website release, installation of modules (nginx, apache, php, sql etc) and their configuration. Request processing speed optimization on the website. Languages used in development: html5, css3, javascript, jquery, php, mysql. At the moment I am studying the development of websites on React."
+        },
+        "3": {
+            "employe": "frontend developer",
+            "company": "SKB Kontur",
+            "date": "mar 2021 – to Present",
+            "description": "Develop the SPA in React JS framework, working with Redux architecture using complex Object-Oriented concepts in improving the performance of the websites."
         }
     },
     "portfolios": {
@@ -116,17 +122,17 @@
     },
     "skills": {
         "CMS / Frameworks / library": {
-            "ReactJS, Redux": "5%",
-            "React Components": "5%",
-            "Node JS": "5%",
+            "ReactJS, Redux": "45%",
+            "React Components": "45%",
+            "Node JS": "30%",
             "Bitrix, MODX, WordPress": "70%",
             "Jquery": "70%"
         },
         "Languages": {
             "HTML5": "90%",
             "CSS3": "90%",
-            "JavaScript ES6+": "40%",
-            "TypeScript": "20%",
+            "JavaScript ES5/6/7": "40%",
+            "TypeScript": "40%",
             "PHP7+": "40%",
             "SQL": "40%"
         },
@@ -135,7 +141,9 @@
             "apache/nginx": "45%",
             "git/git flow": "40%",
             "webpack/gulp": "10%",
-            "SASS/LESS": "60%"
+            "SASS/LESS": "60%",
+            "Storybook": "40%",
+            "MongoDB": "20%"
         }
     },
     "language": {
