@@ -6,6 +6,7 @@ import render from '@component_folder/render.js';
 import Header from '@component_folder/Header-comp.js';
 import Footer from '@component_folder/Footer-comp.js';
 import Content from '@component_folder/Content-comp.js';
+import './functions.js';
 
 
 const fragment = document.createDocumentFragment();

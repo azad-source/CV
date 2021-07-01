@@ -163,7 +163,7 @@ section#about .about-block-2 {
         left: 50%;
         transform: translateX(-50%);
         width: 3px;
-        height: 70%;
+        height: 100%;
         background-color: $second-color;
     }
     .experience-point {
@@ -461,6 +461,15 @@ ul.language-items {
     }
 }
 
+@media screen and (max-width: 440px) {
+    section#about {
+        .about-block-2 {
+            .btn-cv-wrap {
+                width: 100%;
+            }
+        }
+    }
+}
 @media screen and (max-width: 360px) {
     section#about .about-block-1 {
         padding: 30px 10px;

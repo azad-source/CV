@@ -1,5 +1,6 @@
-import skillsArr from '@data_folder/skills.json';
-import portfoliosArr from '@data_folder/portfolio.json';
+import data from '@data_folder/data.json';
+const skillsArr = data['skills'];
+const portfoliosArr = data['portfolios'];
 
 function scrollToTargetAdjusted(element) {
     var headerOffset = 40;
@@ -145,36 +146,34 @@ window.onload = function() {
         }
     });
 
-    download_pdf.addEventListener('click', function() {
+    document.getElementById('download_pdf').addEventListener('click', function() {
         addSkills();
         createPDF();
     });
-
-
-    // Open burger menu
-    burger_menu.addEventListener('click', function() {
-        let burger_menu = document.querySelector('header nav.mobile');
-        burger_menu_overlay.classList.add('overlay-active');
-        burger_menu.classList.add("mobile-nav-active");
-    });
-
-    // Close burger menu
-    burger_menu_close.addEventListener('click', function() {
-        let burger_menu = document.querySelector('header nav.mobile');
-        burger_menu.classList.remove("mobile-nav-active");
-        burger_menu_overlay.classList.remove('overlay-active');
-    });
-
-    burger_menu_overlay.addEventListener('click', function() {
-        burger_menu_close.click();
-        burger_menu_overlay.classList.remove('overlay-active');
-    });
-
-
-    // Scroll to top
-    window.addEventListener('scroll', trackScroll);
-    goTopBtn.addEventListener('click', backToTop);
-
-
     addPortfolios();
 }
+
+document.addEventListener('click', e => {
+    switch (e.target.id) {
+        // Open burger menu
+        case 'burger_menu':
+            document.getElementById('burger_menu_overlay').classList.add('overlay-active');
+            document.querySelector('header nav.mobile').classList.add("mobile-nav-active");
+            break;
+        // Close burger menu
+        case 'burger_menu_close':
+            document.querySelector('header nav.mobile').classList.remove("mobile-nav-active");
+            document.getElementById('burger_menu_overlay').classList.remove('overlay-active');
+            break;
+        case 'burger_menu_overlay':
+            document.getElementById('burger_menu_close').click();
+            document.getElementById('burger_menu_overlay').classList.remove('overlay-active');
+            break;
+        case 'goTopBtn':
+            backToTop();
+            break;
+    }
+})
+
+// Scroll to top
+window.addEventListener('scroll', trackScroll);
