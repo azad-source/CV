@@ -64,6 +64,12 @@
             "establishment": "Samara State Aerospace University",
             "date": "september 2011 - july 2014",
             "description": ""
+        },
+        "3": {
+            "degree": "Frontend developer",
+            "establishment": "EPAM courses",
+            "date": "september 2020 - december 2020",
+            "description": "JS Core, Event Loop, JavaScript Asynchronous, features of es6/7/8, ReactJS"
         }
     },
     "experience": {
