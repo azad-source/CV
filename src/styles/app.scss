@@ -1,4 +1,6 @@
 @import './font.scss';
+@import 'src/styles/colors.scss';
+@import 'src/styles/default.scss';
 
 body,
 html {
@@ -19,16 +21,23 @@ html {
   min-height: 100vh;
 }
 
-.App {
+.app {
   background-repeat: repeat;
   background-attachment: fixed;
   flex-grow: 1;
   display: flex;
+  flex-direction: column;
 }
 
 *,
 body,
 div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 a,
 p,
 span,
@@ -57,6 +66,84 @@ li {
 
 ::-webkit-scrollbar-track-piece {
   background: #eee;
+}
+
+.main-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  flex-grow: 1;
+}
+
+h1 {
+  color: $main-text-color;
+  letter-spacing: 3px;
+  font-size: 2.5rem;
+  border-bottom: 1px solid $second-color;
+  padding: 5px 0;
+  font-family: 'NotoSansJP-Bold', sans-serif;
+  font-weight: normal;
+  @media screen and (map-get($breakpoints, mobile)) {
+    font-size: 2rem;
+  }
+  @media screen and (map-get($breakpoints, s-mobile)) {
+    font-size: 1.7rem;
+  }
+}
+
+h2 {
+  color: $main-color;
+  letter-spacing: 2px;
+  font-size: 1.7rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 2px solid $second-color;
+  margin-bottom: 30px;
+  font-family: 'NotoSansJP-Bold', sans-serif;
+  font-weight: normal;
+  @media screen and (map-get($breakpoints, mobile)) {
+    font-size: 1.5rem;
+    padding: 12px 0;
+  }
+}
+
+h3 {
+  font-family: 'NotoSansJP-Bold', sans-serif;
+  font-weight: normal;
+  @media screen and (map-get($breakpoints, laptop)) {
+    font-size: 1rem;
+  }
+}
+
+h4 {
+  color: $main-text-color;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e9e9e9;
+  margin-bottom: 30px;
+  font-family: 'NotoSansJP-Bold', sans-serif;
+  font-weight: normal;
+}
+
+main {
+  margin-top: 54px;
+}
+
+section {
+  @media screen and (map-get($breakpoints, desktop)) {
+    height: unset;
+  }
+}
+
+.fas,
+.fab {
+  color: $main-color;
+  font-size: 28px;
 }
 
 @media screen and (max-width: 768px) {

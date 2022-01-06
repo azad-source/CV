@@ -1,4 +1,5 @@
 import * as React from 'react';
+import cn from 'classnames';
 import styles from './Header.module.scss';
 
 export const Header = () => {
@@ -44,7 +45,10 @@ export const Header = () => {
                 </ul>
             </nav>
             <div className={styles['burger-menu-wrap']}>
-                <i className={styles['fas fa-bars burger-menu-icon']} id="burger_menu" />
+                <i
+                    className={cn(styles.fas, styles['fa-bars'], styles['burger-menu-icon'])}
+                    id="burger_menu"
+                />
             </div>
             <div className={styles['burger-menu-overlay']} id="burger_menu_overlay" />
             <nav className={styles.mobile}>
@@ -57,7 +61,7 @@ export const Header = () => {
                         <span className={styles['mobile-ava-name']}>Azad MAMEDOV</span>
                     </div>
                     <i
-                        className={styles['fas fa-times burger-menu-close']}
+                        className={cn(styles.fas, styles['fa-times'], styles['burger-menu-close'])}
                         id="burger_menu_close"
                     />
                     <ul>
