@@ -3,9 +3,9 @@ import cn from 'classnames';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTelegram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { Page } from '../layout/Page/Page';
+import { Page } from 'components/layout/Page/Page';
+import { Button } from 'components/layout/Button/Button';
 import styles from './About.module.scss';
-import { Button } from '../layout/Button/Button';
 
 export const About = () => {
     return (
@@ -30,7 +30,11 @@ export const About = () => {
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                <FontAwesomeIcon icon={faEnvelope} className={styles.soicalIcon} size='2x' />
+                                <FontAwesomeIcon
+                                    icon={faEnvelope}
+                                    className={styles.soicalIcon}
+                                    size="2x"
+                                />
                             </a>
                         </li>
                         <li>
@@ -40,7 +44,11 @@ export const About = () => {
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                <FontAwesomeIcon icon={faTelegram} className={styles.soicalIcon} size='2x' />
+                                <FontAwesomeIcon
+                                    icon={faTelegram}
+                                    className={styles.soicalIcon}
+                                    size="2x"
+                                />
                             </a>
                         </li>
                         <li>
@@ -50,7 +58,11 @@ export const About = () => {
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                <FontAwesomeIcon icon={faFacebook} className={styles.soicalIcon} size='2x' />
+                                <FontAwesomeIcon
+                                    icon={faFacebook}
+                                    className={styles.soicalIcon}
+                                    size="2x"
+                                />
                             </a>
                         </li>
                         <li>
@@ -60,7 +72,11 @@ export const About = () => {
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                <FontAwesomeIcon icon={faLinkedin} className={styles.soicalIcon} size='2x' />
+                                <FontAwesomeIcon
+                                    icon={faLinkedin}
+                                    className={styles.soicalIcon}
+                                    size="2x"
+                                />
                             </a>
                         </li>
                     </ul>
