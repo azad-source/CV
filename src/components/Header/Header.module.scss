@@ -1,3 +1,136 @@
+@import 'styles/colors.scss';
+
 .root {
-    color: red;
+  width: 100%;
+  background-color: $main-color;
+  box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  nav {
+    display: block;
+    position: relative;
+    width: 1200px;
+    padding: 0 20px;
+    font-size: 16px;
+    margin: 0 auto;
+    ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      li {
+        display: block;
+        flex-grow: 1;
+        a {
+          display: block;
+          text-align: center;
+          color: $main-text-color;
+          font-weight: normal;
+          font-family: 'NotoSansJP-Bold', sans-serif;
+          text-decoration: none;
+          padding: 15px 0;
+        }
+        &:hover a {
+          color: $second-color;
+          background-color: #222;
+          transition: 0.25s;
+        }
+      }
+    }
+    @media screen and (map-get($breakpoints, desktop)) {
+      width: 100%;
+      display: none;
+    }
+  }
+  nav.mobile {
+    display: none;
+    width: 200px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: -1px;
+    background-color: $main-text-color;
+    transition: 0.5s ease;
+    transform: translateX(-105%);
+    box-shadow: 1px 0 11px 4px rgba(0, 0, 0, 0.2);
+    .burger-menu-close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      color: $main-text-color;
+      cursor: pointer;
+    }
+    .mobile-ava-wrapper {
+      background-color: $main-color;
+      padding: 15px;
+      .mobile-ava-name {
+        text-align: center;
+        display: block;
+        width: 100%;
+        color: $main-text-color;
+      }
+      img {
+        background-color: $main-text-color;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+      }
+    }
+    li:hover a {
+      background-color: inherit;
+    }
+    @media screen and (map-get($breakpoints, desktop)) {
+      display: block;
+      padding: 0;
+    }
+  }
+  nav.mobile.mobile-nav-active {
+    transition: 0.5s ease;
+    left: -1px;
+    transform: translateX(0);
+  }
+  .burger-menu-wrap {
+    display: none;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    user-select: none;
+    font-size: 40px;
+    cursor: pointer;
+    .burger-menu-icon {
+      color: $second-color;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    @media screen and (map-get($breakpoints, desktop)) {
+      display: block;
+    }
+  }
+  @media screen and (map-get($breakpoints, desktop)) {
+    height: 54px;
+  }
+  nav.mobile ul {
+    @media screen and (map-get($breakpoints, desktop)) {
+      flex-direction: column;
+    }
+    li {
+      @media screen and (map-get($breakpoints, desktop)) {
+        width: 100%;
+        border-bottom: 1px solid #bdbdbd;
+      }
+      a {
+        @media screen and (map-get($breakpoints, desktop)) {
+          text-align: left;
+          padding: 10px 30px;
+          color: $main-color;
+        }
+      }
+    }
+  }
 }
