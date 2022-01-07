@@ -14,7 +14,7 @@ export const Footer = () => {
     return (
         <footer className={styles.root}>
             {show && <BackToTopButton />}
-            <div className={styles.copyright}>© Azad MAMEDOV | CV | 2022</div>
+            <div className={styles.copyright}>© Azad MAMEDOV | CV | {new Date().getFullYear()}</div>
         </footer>
     );
 };
