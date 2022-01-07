@@ -1,0 +1,17 @@
+@import 'src/styles/colors.scss';
+@import 'src/styles/default.scss';
+
+.items {
+  display: block;
+  list-style-position: inside;
+  font-size: 18px;
+
+  .item {
+    line-height: 2;
+
+    &__name {
+      font-weight: bold;
+      margin-right: 10px;
+    }
+  }
+}
