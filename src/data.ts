@@ -1,6 +1,12 @@
 import { faFacebook, faTelegram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import avatar from './images/avatar.png';
+import portfolio_webdev from './images/portfolios/webdev.png';
+import portfolio_calculator from './images/portfolios/calculator.png';
+import portfolio_momentum from './images/portfolios/momentum.png';
+import portfolio_virtualKeyboard from './images/portfolios/virtual-keyboard.png';
+import portfolio_pureWater from './images/portfolios/pure-water.png';
+import portfolio_timelineDashboard from './images/portfolios/timeline-dashboard.png';
 
 export const data = {
     avatar,
@@ -101,40 +107,43 @@ export const data = {
                 'Develop the SPA in React JS framework, working with Redux architecture using complex Object-Oriented concepts in improving the performance of the websites.',
         },
     ],
-    portfolios: {
-        'Java Script ES5/ES6/ES7': [
-            {
-                name: 'Webdev',
-                link: './portfolios/webdev/',
-                image: 'webdev.png',
-            },
-            {
-                name: 'Calculator',
-                link: './portfolios/calculator/',
-                image: 'calculator.png',
-            },
-            {
-                name: 'Momentum',
-                link: './portfolios/momentum/',
-                image: 'momentum.png',
-            },
-            {
-                name: 'Virtual keyboard',
-                link: './portfolios/virtual-keyboard/',
-                image: 'virtual-keyboard.png',
-            },
-            {
-                name: 'Pure water',
-                link: './portfolios/pure-water/',
-                image: 'pure-water.png',
-            },
-            {
-                name: 'Timeline dashboard',
-                link: './portfolios/timeline-dashboard/',
-                image: 'timeline-dashboard.png',
-            },
-        ],
-    },
+    portfolios: [
+        {
+            title: 'Java Script ES5/ES6/ES7',
+            items: [
+                {
+                    name: 'Webdev',
+                    link: './portfolios/webdev/',
+                    image: portfolio_webdev,
+                },
+                {
+                    name: 'Calculator',
+                    link: './portfolios/calculator/',
+                    image: portfolio_calculator,
+                },
+                {
+                    name: 'Momentum',
+                    link: './portfolios/momentum/',
+                    image: portfolio_momentum,
+                },
+                {
+                    name: 'Virtual keyboard',
+                    link: './portfolios/virtual-keyboard/',
+                    image: portfolio_virtualKeyboard,
+                },
+                {
+                    name: 'Pure water',
+                    link: './portfolios/pure-water/',
+                    image: portfolio_pureWater,
+                },
+                {
+                    name: 'Timeline dashboard',
+                    link: './portfolios/timeline-dashboard/',
+                    image: portfolio_timelineDashboard,
+                },
+            ],
+        },
+    ],
     skills: {
         'CMS / Frameworks / library': {
             'ReactJS, Redux': '45%',
