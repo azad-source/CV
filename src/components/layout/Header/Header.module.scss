@@ -10,7 +10,7 @@
   left: 0;
   z-index: 100;
 
-  nav {
+  .menu {
     display: block;
     position: relative;
     width: 1200px;
@@ -50,61 +50,74 @@
       width: 100%;
       display: none;
     }
-  }
-  nav.mobile {
-    display: block;
-    width: 200px;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: -1px;
-    background-color: $main-text-color;
-    transition: 0.5s ease;
-    transform: translateX(-105%);
-    box-shadow: 1px 0 11px 4px rgba(0, 0, 0, 0.2);
 
-    .burger-menu-close {
-      background: none;
-      border: none;
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      color: $main-text-color;
-      font-size: 24px;
-      cursor: pointer;
-    }
-
-    .mobile-ava-wrapper {
-      background-color: $main-color;
-      padding: 15px;
-      .mobile-ava-name {
-        text-align: center;
-        display: block;
-        width: 100%;
-        color: $main-text-color;
-      }
-
-      img {
-        background-color: $main-text-color;
-        border-radius: 50%;
-        width: 100px;
-        height: 100px;
-        margin: 0 auto;
-        margin-bottom: 15px;
-      }
-    }
-
-    li:hover a {
-      background-color: inherit;
-    }
-
-    @media screen and (map-get($breakpoints, desktop)) {
+    &_mobile {
       display: block;
-      padding: 0;
+      width: 200px;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      left: -1px;
+      background-color: $main-text-color;
+      transition: 0.5s ease;
+      transform: translateX(-105%);
+      box-shadow: 1px 0 11px 4px rgba(0, 0, 0, 0.2);
+
+      ul {
+        flex-direction: column;
+
+        li {
+          width: 100%;
+          border-bottom: 1px solid #bdbdbd;
+
+          a {
+            text-align: left;
+            padding: 10px 30px;
+            color: $main-color;
+          }
+        }
+      }
+
+      .burgerMenuClose {
+        background: none;
+        border: none;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: $main-text-color;
+        font-size: 24px;
+        cursor: pointer;
+      }
+
+      .avatar {
+        background-color: $main-color;
+        padding: 15px;
+
+        &__name {
+          text-align: center;
+          display: block;
+          width: 100%;
+          color: $main-text-color;
+        }
+
+        &__img {
+          background-color: $main-text-color;
+          border-radius: 50%;
+          width: 100px;
+          height: 100px;
+          margin: 0 auto;
+          margin-bottom: 15px;
+        }
+      }
+
+      @media screen and (map-get($breakpoints, desktop)) {
+        display: block;
+        padding: 0;
+      }
     }
   }
 
-  .burger-menu-wrap {
+  .burgerMenuBtn {
     display: none;
     user-select: none;
     font-size: 40px;
@@ -112,7 +125,7 @@
     background: none;
     border: none;
 
-    .burger-menu-icon {
+    .burgerMenuIcon {
       color: $second-color;
       display: flex;
       flex-direction: row;
@@ -122,25 +135,6 @@
 
     @media screen and (map-get($breakpoints, desktop)) {
       display: block;
-    }
-  }
-
-  nav.mobile ul {
-    flex-direction: column;
-
-    li {
-      @media screen and (map-get($breakpoints, desktop)) {
-        width: 100%;
-        border-bottom: 1px solid #bdbdbd;
-      }
-
-      a {
-        @media screen and (map-get($breakpoints, desktop)) {
-          text-align: left;
-          padding: 10px 30px;
-          color: $main-color;
-        }
-      }
     }
   }
 }

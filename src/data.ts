@@ -1,26 +1,29 @@
+import avatar from './images/avatar.png';
+
 export const data = {
+    avatar,
     contacts: {
-        Name: {
+        name: {
             href: false,
             title: 'Azad MAMEDOV',
             'font-awesome': false,
         },
-        Position: {
+        position: {
             href: false,
             title: 'Frontend Developer',
             'font-awesome': false,
         },
-        Country: {
+        country: {
             href: false,
             title: 'Russia',
             'font-awesome': false,
         },
-        Region: {
+        region: {
             href: false,
             title: 'Samarskaya oblast',
             'font-awesome': false,
         },
-        City: {
+        city: {
             href: false,
             title: 'Samara',
             'font-awesome': false,
@@ -45,7 +48,7 @@ export const data = {
             title: 'azad-mamedov-0563489a',
             'font-awesome': 'fab fa-linkedin',
         },
-        Phone: {
+        phone: {
             href: 'tel:+79276951562',
             title: '+7 927 695 15 62',
             'font-awesome': false,
@@ -138,7 +141,7 @@ export const data = {
             'Bitrix, MODX, WordPress': '70%',
             Jquery: '70%',
         },
-        Languages: {
+        languages: {
             HTML5: '90%',
             CSS3: '90%',
             'JavaScript ES5/6/7': '40%',
@@ -146,7 +149,7 @@ export const data = {
             'PHP7+': '40%',
             SQL: '40%',
         },
-        Other: {
+        other: {
             linux: '40%',
             'apache/nginx': '45%',
             'git/git flow': '40%',
