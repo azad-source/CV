@@ -8,7 +8,7 @@ import styles from './About.module.scss';
 const { avatar, name, position, contacts, about } = data;
 
 const socials = contacts.filter(({ title }) =>
-    ['eMail', 'telegram', 'facebook', 'linkedin'].includes(title),
+    ['e-mail', 'telegram', 'facebook', 'linkedin'].includes(title),
 );
 
 export const About = () => {

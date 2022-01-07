@@ -32,7 +32,7 @@ export const data = {
             icon: null,
         },
         {
-            title: 'eMail',
+            title: 'e-mail',
             href: 'mailto:azad_63_mamedov@mail.ru',
             value: 'azad_63_mamedov@mail.ru',
             icon: faEnvelope,
