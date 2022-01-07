@@ -1,5 +1,4 @@
 import * as React from 'react';
-import cn from 'classnames';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTelegram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -81,7 +80,7 @@ export const About = () => {
                         </li>
                     </ul>
                 </div>
-                <div className={cn(styles['about-text'], styles['content-wrapper'])}>
+                <div className={styles['about-text']}>
                     <p>
                         I have more than 3 years of experience in web development and I really like
                         to work with customers and provide high-quality service and quick responses.

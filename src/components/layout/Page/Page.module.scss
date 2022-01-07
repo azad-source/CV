@@ -1,9 +1,10 @@
 @import 'src/styles/colors.scss';
+@import 'src/styles/default.scss';
 
 .root {
   margin: 80px 0;
   box-shadow: 0 0 12px 2px rgb(0 0 0 / 30%);
   min-height: 600px;
   background-color: $page-bg-color;
-  padding-bottom: 50px;
+  padding: 0 $contentSideGap 50px;
 }
