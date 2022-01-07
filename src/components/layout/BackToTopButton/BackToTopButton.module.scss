@@ -1,4 +1,5 @@
 @import 'src/styles/colors.scss';
+@import 'src/styles/default.scss';
 
 .root {
   display: block;
@@ -25,7 +26,7 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (map-get($breakpoints, desktop)) {
   .root {
     background-color: rgba(125, 125, 125, 0.8);
 
@@ -35,7 +36,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (map-get($breakpoints, tablet)) {
   .root {
     right: 20px;
     bottom: 40px;

@@ -1,4 +1,5 @@
 @import 'src/styles/colors.scss';
+@import 'src/styles/default.scss';
 
 .root {
   display: block;
@@ -17,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (map-get($breakpoints, mobile)) {
   .root {
     font-size: 14px;
   }

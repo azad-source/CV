@@ -8,16 +8,19 @@
   padding: 20px;
   color: $main-text-color;
   align-self: end;
+
   .copyright {
     text-align: center;
     width: 100%;
     letter-spacing: 2px;
+
     @media screen and (map-get($breakpoints, s-mobile)) {
       footer .copyright {
         font-size: 0.8rem;
       }
     }
   }
+
   @media screen and (map-get($breakpoints, s-mobile)) {
     padding: 20px 15px;
   }

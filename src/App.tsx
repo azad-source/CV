@@ -3,6 +3,7 @@ import 'normalize.css';
 import './styles/app.scss';
 import { Experience } from 'components/Experience/Experience';
 import { Education } from 'components/Education/Education';
+import { Portfolios } from 'components/Portfolios/Portfolios';
 import mainBg from './images/main-bg.png';
 import { Header } from './components/layout/Header/Header';
 import { Footer } from './components/layout/Footer/Footer';
@@ -16,6 +17,7 @@ function App() {
                 <About />
                 <Experience />
                 <Education />
+                <Portfolios />
             </div>
             <Footer />
         </div>

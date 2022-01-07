@@ -6,5 +6,20 @@
   box-shadow: 0 0 12px 2px rgb(0 0 0 / 30%);
   min-height: 600px;
   background-color: $page-bg-color;
-  padding: 0 $contentSideGap 50px;
+  padding: 0 #{map-get($contentSideGap, max)} 50px;
+
+  @media screen and (map-get($breakpoints, desktop)) {
+    padding-left: #{map-get($contentSideGap, medium)};
+    padding-right: #{map-get($contentSideGap, medium)};
+  }
+
+  @media screen and (map-get($breakpoints, tablet)) {
+    padding-left: #{map-get($contentSideGap, small)};
+    padding-right: #{map-get($contentSideGap, small)};
+  }
+
+  @media screen and (map-get($breakpoints, s-mobile)) {
+    padding-left: #{map-get($contentSideGap, x-small)};
+    padding-right: #{map-get($contentSideGap, x-small)};
+  }
 }

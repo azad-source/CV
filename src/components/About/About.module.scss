@@ -15,8 +15,23 @@
     align-items: center;
     flex-direction: column;
     padding: 30px;
-    margin-left: -$contentSideGap;
-    margin-right: -$contentSideGap;
+    margin-left: -#{map-get($contentSideGap, max)};
+    margin-right: -#{map-get($contentSideGap, max)};
+
+    @media screen and (map-get($breakpoints, desktop)) {
+      margin-left: -#{map-get($contentSideGap, medium)};
+      margin-right: -#{map-get($contentSideGap, medium)};
+    }
+
+    @media screen and (map-get($breakpoints, tablet)) {
+      margin-left: -#{map-get($contentSideGap, small)};
+      margin-right: -#{map-get($contentSideGap, small)};
+    }
+
+    @media screen and (map-get($breakpoints, s-mobile)) {
+      margin-left: -#{map-get($contentSideGap, x-small)};
+      margin-right: -#{map-get($contentSideGap, x-small)};
+    }
 
     .ava-wrapper {
       width: 200px;
@@ -36,8 +51,6 @@
         filter: brightness(85%) grayscale(10%);
         -webkit-filter: brightness(85%) grayscale(10%);
         transition: all 1s;
-        max-width: 100%;
-        display: block;
       }
 
       &:hover img {
@@ -116,6 +129,31 @@
       line-height: 1.5;
       letter-spacing: 0.2px;
       font-size: 16px;
+    }
+  }
+}
+
+@media screen and (map-get($breakpoints, mobile)) {
+  .root {
+    .about-block-2 {
+      .about-text {
+        padding: 30px 0;
+        text-align: justify;
+      }
+      .btn-cv-wrap {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (map-get($breakpoints, s-mobile)) {
+  .root {
+    .about-block-1 {
+      padding: 30px 10px;
+      .position {
+        font-size: 1.2rem;
+      }
     }
   }
 }

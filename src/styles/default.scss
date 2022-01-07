@@ -1,3 +1,5 @@
+$contentWidth: 1200px;
+
 $breakpoints: (
   'xs-mobile': 'max-width: 320px',
   's-mobile': 'max-width: 360px',
@@ -8,4 +10,9 @@ $breakpoints: (
   'desktop-large': 'max-width: 1600px',
 );
 
-$contentSideGap: 120px;
+$contentSideGap: (
+  'x-small': 10px,
+  'small': 20px,
+  'medium': 50px,
+  'max': 120px,
+);

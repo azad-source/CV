@@ -69,10 +69,14 @@ li {
 }
 
 .main-wrapper {
-  width: 1200px;
+  width: $contentWidth;
   margin: 0 auto;
   position: relative;
   flex-grow: 1;
+
+  @media screen and (map-get($breakpoints, desktop)) {
+    width: 100%;
+  }
 }
 
 h1 {
@@ -130,6 +134,11 @@ h4 {
   font-weight: normal;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 main {
   margin-top: 54px;
 }
@@ -146,7 +155,7 @@ section {
   font-size: 28px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (map-get($breakpoints, tablet)) {
   body {
     display: block;
     min-width: 275px;
