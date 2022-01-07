@@ -179,7 +179,7 @@ export const data = {
             ],
         },
     ],
-    language: [
+    languages: [
         {
             language: 'english',
             level: 'A2',
