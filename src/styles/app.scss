@@ -50,22 +50,22 @@ li {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #444;
+  background-color: $main-color;
+  width: $scrollWidth;
   height: 0;
-  width: 0;
 }
 
 ::-webkit-scrollbar {
-  width: 0;
-  height: 5px;
+  width: $scrollWidth;
+  height: 0;
 }
 
 ::-webkit-scrollbar-button {
-  background: #444;
+  background: $main-color;
 }
 
 ::-webkit-scrollbar-track-piece {
-  background: #eee;
+  background: #999;
 }
 
 .main-wrapper {

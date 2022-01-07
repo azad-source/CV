@@ -6,6 +6,7 @@ import { Education } from 'components/Education/Education';
 import { Portfolios } from 'components/Portfolios/Portfolios';
 import { Skills } from 'components/Skills/Skills';
 import { Languages } from 'components/Languages/Languages';
+import { Contacts } from 'components/Contacts/Contacts';
 import mainBg from './images/main-bg.png';
 import { Header } from './components/layout/Header/Header';
 import { Footer } from './components/layout/Footer/Footer';
@@ -22,6 +23,7 @@ function App() {
                 <Portfolios />
                 <Skills />
                 <Languages />
+                <Contacts />
             </div>
             <Footer />
         </div>
