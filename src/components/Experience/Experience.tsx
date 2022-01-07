@@ -1,13 +1,14 @@
 import * as React from 'react';
 import cn from 'classnames';
 import { Page } from 'components/layout/Page/Page';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircle } from '@fortawesome/free-solid-svg-icons';
+import { CircleIcon } from 'components/layout/CircleIcon/CircleIcon';
 import styles from './Experience.module.scss';
+
+const Circle = () => <CircleIcon className={styles.circle} />;
 
 export const Experience = () => {
     return (
-        <Page className={styles.root} id="experience">
+        <Page id="experience">
             <h2>Experience</h2>
             <div className={styles['experience-wrap']}>
                 <div className={cn(styles['experience-block'], styles['experience-block-left'])}>
@@ -33,7 +34,7 @@ export const Experience = () => {
                             </p>
                         </div>
                     </div>
-                    <FontAwesomeIcon icon={faCircle} className={styles['experience-point']} />
+                    <Circle />
                 </div>
                 <div className={cn(styles['experience-block'], styles['experience-block-right'])}>
                     <h3>Web Developer</h3>
@@ -53,7 +54,7 @@ export const Experience = () => {
                             </p>
                         </div>
                     </div>
-                    <FontAwesomeIcon icon={faCircle} className={styles['experience-point']} />
+                    <Circle />
                 </div>
                 <div className={cn(styles['experience-block'], styles['experience-block-left'])}>
                     <h3>frontend developer</h3>
@@ -68,7 +69,7 @@ export const Experience = () => {
                             </p>
                         </div>
                     </div>
-                    <FontAwesomeIcon icon={faCircle} className={styles['experience-point']} />
+                    <Circle />
                 </div>
             </div>
         </Page>

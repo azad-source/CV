@@ -30,11 +30,9 @@
       height: 100%;
       background-color: $second-color;
   }
-  .experience-point {
+  .circle {
       position: absolute;
       top: 0;
-      color: $second-color;
-      font-size: 21px;
   }
   .experience-block-left {
       padding-left: unset;
@@ -46,7 +44,7 @@
           right: -20px;
           top: 0;
       }
-      .experience-point {
+      .circle {
           right: 0;
           transform: translateX(50%);
       }
@@ -54,7 +52,7 @@
   .experience-block-right {
       margin-top: 100px;
       padding-right: unset;
-      .experience-point {
+      .circle {
           left: 0;
           transform: translateX(-50%);
       }
