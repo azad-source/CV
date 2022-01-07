@@ -4,6 +4,7 @@ import './styles/app.scss';
 import { Experience } from 'components/Experience/Experience';
 import { Education } from 'components/Education/Education';
 import { Portfolios } from 'components/Portfolios/Portfolios';
+import { Skills } from 'components/Skills/Skills';
 import mainBg from './images/main-bg.png';
 import { Header } from './components/layout/Header/Header';
 import { Footer } from './components/layout/Footer/Footer';
@@ -18,6 +19,7 @@ function App() {
                 <Experience />
                 <Education />
                 <Portfolios />
+                <Skills />
             </div>
             <Footer />
         </div>
