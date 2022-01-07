@@ -1,17 +1,19 @@
 import * as React from 'react';
-import cn from 'classnames';
 import styles from './Footer.module.scss';
+import { BackToTopButton } from '../BackToTopButton/BackToTopButton';
 
 export const Footer = () => {
+    const [show, setShow] = React.useState<boolean>(false);
+    const trackScroll = () => {
+        const scroll = window.pageYOffset;
+        const height = document.documentElement.clientHeight;
+        setShow(scroll > height);
+    };
+    window.addEventListener('scroll', trackScroll);
+
     return (
         <footer className={styles.root}>
-            <div
-                className={cn(styles.back_to_top, styles['back_to_top-show'])}
-                id="goTopBtn"
-                title="Наверх"
-            >
-                <i className={cn(styles.fas, styles['fa-arrow-up'])} />
-            </div>
+            {show && <BackToTopButton />}
             <div className={styles.copyright}>© Azad MAMEDOV | CV | 2022</div>
         </footer>
     );
