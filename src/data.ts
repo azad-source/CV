@@ -10,58 +10,58 @@ import portfolio_timelineDashboard from './images/portfolios/timeline-dashboard.
 
 export const data = {
     avatar,
-    contacts: {
-        name: {
-            href: false,
-            title: 'Azad MAMEDOV',
-            icon: false,
+    name: 'Azad MAMEDOV',
+    position: 'Frontend Developer',
+    contacts: [
+        {
+            title: 'country',
+            href: null,
+            value: 'Russia',
+            icon: null,
         },
-        position: {
-            href: false,
-            title: 'Frontend Developer',
-            icon: false,
+        {
+            title: 'region',
+            href: null,
+            value: 'Samarskaya oblast',
+            icon: null,
         },
-        country: {
-            href: false,
-            title: 'Russia',
-            icon: false,
+        {
+            title: 'city',
+            href: null,
+            value: 'Samara',
+            icon: null,
         },
-        region: {
-            href: false,
-            title: 'Samarskaya oblast',
-            icon: false,
-        },
-        city: {
-            href: false,
-            title: 'Samara',
-            icon: false,
-        },
-        eMail: {
+        {
+            title: 'eMail',
             href: 'mailto:azad_63_mamedov@mail.ru',
-            title: 'azad_63_mamedov@mail.ru',
+            value: 'azad_63_mamedov@mail.ru',
             icon: faEnvelope,
         },
-        telegram: {
+        {
+            title: 'telegram',
             href: 'https://t.me/azad_63_mamedov',
-            title: '@azad_63_mamedov',
+            value: '@azad_63_mamedov',
             icon: faTelegram,
         },
-        facebook: {
+        {
+            title: 'facebook',
             href: 'https://www.facebook.com/azad.mamedov.338/',
-            title: 'azad.mamedov.338',
+            value: 'azad.mamedov.338',
             icon: faFacebook,
         },
-        linkedin: {
+        {
+            title: 'linkedin',
             href: 'https://www.linkedin.com/in/azad-mamedov-0563489a/',
-            title: 'azad-mamedov-0563489a',
+            value: 'azad-mamedov-0563489a',
             icon: faLinkedin,
         },
-        phone: {
+        {
+            title: 'phone',
             href: 'tel:+79276951562',
-            title: '+7 927 695 15 62',
-            icon: false,
+            value: '+7 927 695 15 62',
+            icon: null,
         },
-    },
+    ],
     about: 'I have more than 3 years of experience in web development and I really like to work with customers and provide high-quality service and quick responses. I like to discover new technologies, search out for effective decisions, and grow as a professional. Working with a variety of technologies and tools helps me to use proven best practices for existing challenges, predict application behavior and prevent bugs and incidents. Contact me if you want to work with a reliable and experienced developer. Lets get the job done!',
     education: [
         {

@@ -5,19 +5,18 @@ import { Button } from 'components/layout/Button/Button';
 import { data } from 'data';
 import styles from './About.module.scss';
 
-const {
-    avatar,
-    contacts: { eMail, telegram, facebook, linkedin, position, name },
-    about,
-} = data;
-const socials = [eMail, telegram, facebook, linkedin];
+const { avatar, name, position, contacts, about } = data;
+
+const socials = contacts.filter(({ title }) =>
+    ['eMail', 'telegram', 'facebook', 'linkedin'].includes(title),
+);
 
 export const About = () => {
     return (
         <Page className={styles.root} id="about">
             <div className={styles['about-block-1']}>
-                <h1>{name.title}</h1>
-                <div className={styles.position}>{position.title}</div>
+                <h1>{name}</h1>
+                <div className={styles.position}>{position}</div>
                 <div className={styles['ava-wrapper']}>
                     <img src={avatar} alt="avatar" />
                 </div>
@@ -25,15 +24,17 @@ export const About = () => {
             <div className={styles['about-block-2']}>
                 <div className={styles['social-wrap']}>
                     <ul>
-                        {socials.map(({ href, title, icon }) => (
+                        {socials.map(({ href, value, icon }) => (
                             <li key={href}>
-                                <a href={href} title={title} target="_blank" rel="noreferrer">
-                                    <FontAwesomeIcon
-                                        icon={icon}
-                                        className={styles.soicalIcon}
-                                        size="2x"
-                                    />
-                                </a>
+                                {!!href && !!icon && (
+                                    <a href={href} title={value} target="_blank" rel="noreferrer">
+                                        <FontAwesomeIcon
+                                            icon={icon}
+                                            className={styles.soicalIcon}
+                                            size="2x"
+                                        />
+                                    </a>
+                                )}
                             </li>
                         ))}
                     </ul>

@@ -19,7 +19,7 @@ function scrollToTargetAdjusted(element: Element | null) {
     }
 }
 
-const { avatar, contacts } = data;
+const { avatar, name } = data;
 
 export const Header = () => {
     const defaultStyle = { transform: 'translateX(-105%)' };
@@ -49,11 +49,11 @@ export const Header = () => {
     const menuList = (
         <ul>
             {MENU.map((item) => {
-                const name = capitalize(item);
+                const itemName = capitalize(item);
                 return (
                     <li key={item}>
-                        <a href={`#${item}`} title={name} onClick={handleScrollTo}>
-                            {name}
+                        <a href={`#${item}`} title={itemName} onClick={handleScrollTo}>
+                            {itemName}
                         </a>
                     </li>
                 );
@@ -74,7 +74,7 @@ export const Header = () => {
             <nav className={cn(styles.menu, styles.menu_mobile)} style={styleMenu}>
                 <div className={styles.avatar}>
                     <img src={avatar} alt="avatar" className={styles.avatar__img} />
-                    <span className={styles.avatar__name}>{contacts.name.title}</span>
+                    <span className={styles.avatar__name}>{name}</span>
                 </div>
                 <button onClick={closeMenu} className={styles.burgerMenuClose} type="button">
                     <FontAwesomeIcon icon={faTimes} />

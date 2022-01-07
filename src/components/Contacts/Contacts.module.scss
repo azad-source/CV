@@ -1,14 +1,15 @@
 @import 'src/styles/colors.scss';
 @import 'src/styles/default.scss';
 
-.contacts-wrapper {
+.root {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
   margin-top: 60px;
 
-  .contacts-items {
+  .items {
     width: 320px;
+
     li {
       font-size: 16px;
       display: flex;
@@ -17,17 +18,21 @@
       line-height: 2.5;
       border-bottom: 1px dashed #bbb;
     }
+
     a,
     a:visited {
       color: $second-color;
     }
-    .contact-item-name {
-      font-family: 'NotoSansJP-Bold', sans-serif;
-      font-weight: normal;
+
+    .item {
+      &__name {
+        font-family: 'NotoSansJP-Bold', sans-serif;
+        font-weight: normal;
+      }
     }
   }
 
-  .contacts-photo {
+  .avatar {
     overflow: hidden;
     width: 300px;
     height: 300px;
@@ -37,13 +42,13 @@
 }
 
 @media screen and (map-get($breakpoints, tablet)) {
-  .contacts-photo {
+  .avatar {
     display: none;
   }
 }
 
 @media screen and (map-get($breakpoints, xs-mobile)) {
-  .contacts-items {
+  .items {
     width: 100%;
     font-size: 14px;
   }
