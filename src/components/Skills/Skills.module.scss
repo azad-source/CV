@@ -1,14 +1,14 @@
 @import 'src/styles/colors.scss';
 @import 'src/styles/default.scss';
 
-.skills-wrap {
+.root {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
   position: relative;
 
-  .skills-block {
+  .block {
     width: 30%;
     background-color: $main-color;
     padding: 20px;
@@ -17,7 +17,7 @@
   }
 }
 
-.skill-progress {
+.item {
   position: relative;
   color: $main-text-color;
   letter-spacing: 1px;
@@ -25,47 +25,51 @@
   margin-bottom: 25px;
   animation-name: skill_section;
   animation-duration: 1s;
+
+  &__title {
+    &__percent {
+      opacity: 0.4;
+      font-size: 0.8em;
+      margin-right: 10px;
+    }
+  }
+
+  &__max {
+    width: 100%;
+    background-color: #e9e9e9;
+  }
+
+  &__max,
+  &__current {
+    height: 5px;
+    bottom: 0;
+    left: 0;
+
+    &__inner {
+      background-color: $second-color;
+      width: 100%;
+      height: 100%;
+      animation-name: skill_animation;
+      animation-duration: 2s;
+    }
+  }
+
+  &__current {
+    background-color: transparent;
+  }
 }
 
-.skill-progress > div {
+.item > div {
   position: absolute;
 }
 
-.skill-progress-max,
-.skill-progress-current {
-  height: 5px;
-  bottom: 0;
-  left: 0;
-}
-
-.skill-progress-max {
-  width: 100%;
-  background-color: #e9e9e9;
-}
-
-.skill-progress-current {
-  background-color: transparent;
-}
-
-.skill-progress-current-inner {
-  background-color: $second-color;
-  width: 100%;
-  height: 100%;
-  animation-name: skill_animation;
-  animation-duration: 2s;
-}
-
-.skill-progress-title-percent {
-  opacity: 0.4;
-  font-size: 0.8em;
-}
-
 @media screen and (max-width: 768px) {
-  .skills-wrap {
+  .root {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    .skills-block {
+
+    .block {
       width: 48%;
       margin-bottom: 20px;
     }
@@ -73,9 +77,10 @@
 }
 
 @media screen and (max-width: 480px) {
-  .skills-wrap {
+  .root {
     padding: 0 40px;
-    .skills-block {
+
+    .block {
       width: 100%;
       margin-bottom: 20px;
     }
@@ -83,7 +88,7 @@
 }
 
 @media screen and (max-width: 360px) {
-  .skills-wrap {
+  .root {
     padding: 0;
   }
 }

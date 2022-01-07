@@ -144,32 +144,41 @@ export const data = {
             ],
         },
     ],
-    skills: {
-        'CMS / Frameworks / library': {
-            'ReactJS, Redux': '45%',
-            'React Components': '45%',
-            'Node JS': '30%',
-            'Bitrix, MODX, WordPress': '70%',
-            Jquery: '70%',
+    skills: [
+        {
+            title: 'CMS / Frameworks / library',
+            items: [
+                { name: 'ReactJS, Redux', progress: '45%' },
+                { name: 'React Components', progress: '45%' },
+                { name: 'Node JS', progress: '30%' },
+                { name: 'Bitrix, MODX, WordPress', progress: '70%' },
+                { name: 'Jquery', progress: '70%' },
+            ],
         },
-        languages: {
-            HTML5: '90%',
-            CSS3: '90%',
-            'JavaScript ES5/6/7': '40%',
-            TypeScript: '40%',
-            'PHP7+': '40%',
-            SQL: '40%',
+        {
+            title: 'languages',
+            items: [
+                { name: 'HTML5', progress: '90%' },
+                { name: 'CSS3', progress: '90%' },
+                { name: 'JavaScript ES5/6/7', progress: '70%' },
+                { name: 'TypeScript', progress: '55%' },
+                { name: 'PHP7+', progress: '40%' },
+                { name: 'SQL', progress: '40%' },
+            ],
         },
-        other: {
-            linux: '40%',
-            'apache/nginx': '45%',
-            'git/git flow': '40%',
-            'webpack/gulp': '10%',
-            'SASS/LESS': '60%',
-            Storybook: '40%',
-            MongoDB: '20%',
+        {
+            title: 'other',
+            items: [
+                { name: 'Linux', progress: '40%' },
+                { name: 'Aache/Nginx', progress: '45%' },
+                { name: 'Git', progress: '70%' },
+                { name: 'Webpack/Gulp', progress: '40%' },
+                { name: 'SASS/LESS', progress: '70%' },
+                { name: 'Storybook', progress: '50%' },
+                { name: 'MongoDB', progress: '20%' },
+            ],
         },
-    },
+    ],
     language: [
         {
             language: 'english',
