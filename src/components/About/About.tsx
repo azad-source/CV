@@ -14,15 +14,15 @@ const socials = contacts.filter(({ title }) =>
 export const About = () => {
     return (
         <Page className={styles.root} id="about">
-            <div className={styles['about-block-1']}>
+            <div className={styles.block_1}>
                 <h1>{name}</h1>
                 <div className={styles.position}>{position}</div>
-                <div className={styles['ava-wrapper']}>
+                <div className={styles.avatar}>
                     <img src={avatar} alt="avatar" />
                 </div>
             </div>
-            <div className={styles['about-block-2']}>
-                <div className={styles['social-wrap']}>
+            <div className={styles.block_2}>
+                <div className={styles.socials}>
                     <ul>
                         {socials.map(({ href, value, icon }) => (
                             <li key={href}>
@@ -39,10 +39,10 @@ export const About = () => {
                         ))}
                     </ul>
                 </div>
-                <div className={styles['about-text']}>
+                <div className={styles.text}>
                     <p>{about}</p>
                 </div>
-                <div className={styles['btn-cv-wrap']}>
+                <div className={styles.btnCVWrap}>
                     <Button id="download_pdf">Download CV En</Button>
                     <Button id="download_pdf">Download CV Fr</Button>
                 </div>
