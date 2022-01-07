@@ -1,3 +1,5 @@
+import { faFacebook, faTelegram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import avatar from './images/avatar.png';
 
 export const data = {
@@ -6,52 +8,52 @@ export const data = {
         name: {
             href: false,
             title: 'Azad MAMEDOV',
-            'font-awesome': false,
+            icon: false,
         },
         position: {
             href: false,
             title: 'Frontend Developer',
-            'font-awesome': false,
+            icon: false,
         },
         country: {
             href: false,
             title: 'Russia',
-            'font-awesome': false,
+            icon: false,
         },
         region: {
             href: false,
             title: 'Samarskaya oblast',
-            'font-awesome': false,
+            icon: false,
         },
         city: {
             href: false,
             title: 'Samara',
-            'font-awesome': false,
+            icon: false,
         },
-        'e-mail': {
+        eMail: {
             href: 'mailto:azad_63_mamedov@mail.ru',
             title: 'azad_63_mamedov@mail.ru',
-            'font-awesome': 'fas fa-envelope',
+            icon: faEnvelope,
         },
         telegram: {
             href: 'https://t.me/azad_63_mamedov',
             title: '@azad_63_mamedov',
-            'font-awesome': 'fab fa-telegram',
+            icon: faTelegram,
         },
         facebook: {
             href: 'https://www.facebook.com/azad.mamedov.338/',
             title: 'azad.mamedov.338',
-            'font-awesome': 'fab fa-facebook',
+            icon: faFacebook,
         },
         linkedin: {
             href: 'https://www.linkedin.com/in/azad-mamedov-0563489a/',
             title: 'azad-mamedov-0563489a',
-            'font-awesome': 'fab fa-linkedin',
+            icon: faLinkedin,
         },
         phone: {
             href: 'tel:+79276951562',
             title: '+7 927 695 15 62',
-            'font-awesome': false,
+            icon: false,
         },
     },
     about: 'I have more than 3 years of experience in web development and I really like to work with customers and provide high-quality service and quick responses. I like to discover new technologies, search out for effective decisions, and grow as a professional. Working with a variety of technologies and tools helps me to use proven best practices for existing challenges, predict application behavior and prevent bugs and incidents. Contact me if you want to work with a reliable and experienced developer. Lets get the job done!',

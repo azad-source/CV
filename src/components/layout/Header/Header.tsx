@@ -19,6 +19,8 @@ function scrollToTargetAdjusted(element: Element | null) {
     }
 }
 
+const { avatar, contacts } = data;
+
 export const Header = () => {
     const defaultStyle = { transform: 'translateX(-105%)' };
     const [showMobileMenu, setShowMobileMenu] = React.useState<boolean>(false);
@@ -58,8 +60,6 @@ export const Header = () => {
             })}
         </ul>
     );
-
-    const { avatar, contacts } = data;
 
     return (
         <header className={styles.root}>
