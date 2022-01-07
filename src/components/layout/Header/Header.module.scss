@@ -35,7 +35,7 @@
           font-weight: normal;
           font-family: 'NotoSansJP-Bold', sans-serif;
           text-decoration: none;
-          padding: 15px 0;
+          padding: 25px 0;
         }
 
         &:hover a {
@@ -52,7 +52,7 @@
     }
   }
   nav.mobile {
-    display: none;
+    display: block;
     width: 200px;
     height: 100vh;
     position: absolute;
@@ -64,10 +64,13 @@
     box-shadow: 1px 0 11px 4px rgba(0, 0, 0, 0.2);
 
     .burger-menu-close {
+      background: none;
+      border: none;
       position: absolute;
       top: 10px;
       right: 10px;
       color: $main-text-color;
+      font-size: 24px;
       cursor: pointer;
     }
 
@@ -84,10 +87,10 @@
       img {
         background-color: $main-text-color;
         border-radius: 50%;
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
         margin: 0 auto;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
       }
     }
 
@@ -101,20 +104,13 @@
     }
   }
 
-  nav.mobile.mobile-nav-active {
-    transition: 0.5s ease;
-    left: -1px;
-    transform: translateX(0);
-  }
-
   .burger-menu-wrap {
     display: none;
-    position: absolute;
-    top: 15px;
-    left: 20px;
     user-select: none;
     font-size: 40px;
-    cursor: pointer;
+    padding: 20px 25px 20px;
+    background: none;
+    border: none;
 
     .burger-menu-icon {
       color: $second-color;
@@ -129,14 +125,8 @@
     }
   }
 
-  @media screen and (map-get($breakpoints, desktop)) {
-    height: 54px;
-  }
-
   nav.mobile ul {
-    @media screen and (map-get($breakpoints, desktop)) {
-      flex-direction: column;
-    }
+    flex-direction: column;
 
     li {
       @media screen and (map-get($breakpoints, desktop)) {
@@ -153,4 +143,14 @@
       }
     }
   }
+}
+
+.overlay {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
