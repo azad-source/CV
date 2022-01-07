@@ -38,8 +38,8 @@ export const Header = () => {
                         </a>
                     </li>
                     <li>
-                        <a className={styles['scroll-to']} href="#contact" title="Contact">
-                            Contact
+                        <a className={styles['scroll-to']} href="#contacts" title="Contacts">
+                            Contacts
                         </a>
                     </li>
                 </ul>
