@@ -7,6 +7,7 @@ import portfolio_momentum from './images/portfolios/momentum.png';
 import portfolio_virtualKeyboard from './images/portfolios/virtual-keyboard.png';
 import portfolio_pureWater from './images/portfolios/pure-water.png';
 import portfolio_timelineDashboard from './images/portfolios/timeline-dashboard.png';
+import portfolio_achord from './images/portfolios/achord.png';
 
 export const data = {
     avatar,
@@ -109,7 +110,7 @@ export const data = {
     ],
     portfolios: [
         {
-            title: 'Java Script ES5/ES6/ES7',
+            title: 'Java Script',
             items: [
                 {
                     name: 'Webdev',
@@ -140,6 +141,16 @@ export const data = {
                     name: 'Timeline dashboard',
                     link: './portfolios/timeline-dashboard/',
                     image: portfolio_timelineDashboard,
+                },
+            ],
+        },
+        {
+            title: 'React.js',
+            items: [
+                {
+                    name: 'Achord',
+                    link: 'https://achord.ru/',
+                    image: portfolio_achord,
                 },
             ],
         },
