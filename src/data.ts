@@ -131,32 +131,32 @@ export const data = {
             items: [
                 {
                     name: 'Webdev',
-                    link: './portfolios/webdev/',
+                    link: 'https://azad-source.github.io/webdev/',
                     image: portfolio_webdev,
                 },
                 {
                     name: 'Calculator',
-                    link: './portfolios/calculator/',
+                    link: 'https://azad-source.github.io/calculator/',
                     image: portfolio_calculator,
                 },
                 {
                     name: 'Momentum',
-                    link: './portfolios/momentum/',
+                    link: 'https://azad-source.github.io/momentum/',
                     image: portfolio_momentum,
                 },
                 {
                     name: 'Virtual keyboard',
-                    link: './portfolios/virtual-keyboard/',
+                    link: 'https://azad-source.github.io/virtual-keyboard/',
                     image: portfolio_virtualKeyboard,
                 },
                 {
                     name: 'Pure water',
-                    link: './portfolios/pure-water/',
+                    link: 'https://azad-source.github.io/pure-water/',
                     image: portfolio_pureWater,
                 },
                 {
                     name: 'Timeline dashboard',
-                    link: './portfolios/timeline-dashboard/',
+                    link: 'https://azad-source.github.io/timeline-dashboard/',
                     image: portfolio_timelineDashboard,
                 },
             ],
