@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "./static/css/main.4fa3483c.css",
+    "main.js": "./static/js/main.5a057e22.js",
+    "static/js/787.5200222a.chunk.js": "./static/js/787.5200222a.chunk.js",
+    "static/media/NotoSansJP-Bold.otf": "./static/media/NotoSansJP-Bold.221b8841f39846cb9810.otf",
+    "static/media/NotoSansJP-Medium.otf": "./static/media/NotoSansJP-Medium.1b7dde000cf6f3eaecd7.otf",
+    "static/media/NotoSansJP-Regular.otf": "./static/media/NotoSansJP-Regular.30ac0ac10cb239a9c3b9.otf",
+    "static/media/NotoSansJP-Thin.otf": "./static/media/NotoSansJP-Thin.f9e069c0d896d75d0668.otf",
+    "static/media/avatar.png": "./static/media/avatar.4af517c3f7aa4cd20697.png",
+    "index.html": "./index.html",
+    "main.4fa3483c.css.map": "./static/css/main.4fa3483c.css.map",
+    "main.5a057e22.js.map": "./static/js/main.5a057e22.js.map",
+    "787.5200222a.chunk.js.map": "./static/js/787.5200222a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fa3483c.css",
+    "static/js/main.5a057e22.js"
+  ]
+}

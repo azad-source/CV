@@ -33,9 +33,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build && move build dist",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "buildpush": "npm run build && git add . && git commit -m 'build push' && git push",
-    "buildAndPush": "func() { npm run build &&  git add . && git commit -m \"build push\" && git push; }; func"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
