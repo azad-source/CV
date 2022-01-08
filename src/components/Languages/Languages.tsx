@@ -4,14 +4,14 @@ import { data } from 'data';
 import { capitalize } from 'helpers/stringHelper';
 import styles from './Languages.module.scss';
 
-const { languages } = data;
+const { langs } = data;
 
 export const Languages = () => {
     return (
         <Page id="languages">
             <h2>Languages</h2>
             <ul className={styles.list}>
-                {languages.map(({ language, level, description }) => (
+                {langs.map(({ language, level, description }) => (
                     <li key={language} className={styles.item}>
                         <span className={styles.item__name}>{capitalize(language)}:</span>
                         <span className={styles.item__value}>

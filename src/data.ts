@@ -9,6 +9,16 @@ import portfolio_pureWater from './images/portfolios/pure-water.png';
 import portfolio_timelineDashboard from './images/portfolios/timeline-dashboard.png';
 import portfolio_achord from './images/portfolios/achord.png';
 
+export const contactsInfo = {
+    post: '443058',
+    city: 'Samara',
+    region: 'Samarskaya oblast',
+    country: 'Russia',
+    eMail: 'azad_63_mamedov@mail.ru',
+    phone: '+7 927 695 15 62',
+    linkedin: 'https://www.linkedin.com/in/azad-mamedov-0563489a/',
+};
+
 export const data = {
     avatar,
     name: 'Azad MAMEDOV',
@@ -17,25 +27,25 @@ export const data = {
         {
             title: 'country',
             href: null,
-            value: 'Russia',
+            value: contactsInfo.country,
             icon: null,
         },
         {
             title: 'region',
             href: null,
-            value: 'Samarskaya oblast',
+            value: contactsInfo.region,
             icon: null,
         },
         {
             title: 'city',
             href: null,
-            value: 'Samara',
+            value: contactsInfo.city,
             icon: null,
         },
         {
             title: 'e-mail',
             href: 'mailto:azad_63_mamedov@mail.ru',
-            value: 'azad_63_mamedov@mail.ru',
+            value: contactsInfo.eMail,
             icon: faEnvelope,
         },
         {
@@ -52,14 +62,14 @@ export const data = {
         },
         {
             title: 'linkedin',
-            href: 'https://www.linkedin.com/in/azad-mamedov-0563489a/',
+            href: contactsInfo.linkedin,
             value: 'azad-mamedov-0563489a',
             icon: faLinkedin,
         },
         {
             title: 'phone',
-            href: 'tel:+79276951562',
-            value: '+7 927 695 15 62',
+            href: `tel:${contactsInfo.phone.replace(/\s/g, '')}`,
+            value: contactsInfo.phone,
             icon: null,
         },
     ],
@@ -92,6 +102,8 @@ export const data = {
             date: 'feb  2014 - dec 2018',
             description:
                 'Structural linear and nonlinear analysis of the intermediate engine mount for LEAP-1, starting from the creation of finite element model, application of boundary conditions and definition materials property, and ending with the launch of the calculation and post processing of results. Life time calculation and modal analysis to determine natural frequencies. Software I used: ICEM (to create the mesh) Patran (to create meshing and boundary conditions) Ansys Workbench (for geometry preparation, to create mesh, boundary condition and to start the calculation) Samcef (to create condition to the limits and launch of the linear / non-linear computation (asef / mechanics)) Abaqus (to create boundary condition and to start the computation linear / nonlinear) At the end, an analysis of the results, and a report.',
+            languages: null,
+            tools: 'Software: ICEM, Patran, Ansys Workbench, Samcef, Abaqus',
         },
         {
             employe: 'Web Developer',
@@ -99,6 +111,8 @@ export const data = {
             date: 'jan 2019 – feb 2021',
             description:
                 'Development, support and seo promotion of websites of any complexity on cms modx, bitrix, simpla, wordperss, joomla. Working with API of modx and bitrix. Preparing of environment for the website release, installation of modules (nginx, apache, php, sql etc) and their configuration. Request processing speed optimization on the website. Languages used in development: html5, css3, javascript, jquery, php, mysql. At the moment I am studying the development of websites on React.',
+            languages: 'Languages: HTML5, CSS3, Jquery, PHP7.x, Mysql',
+            tools: 'Git, Photoshop, Figma, Sublime Text',
         },
         {
             employe: 'Frontend developer',
@@ -106,6 +120,9 @@ export const data = {
             date: 'mar 2021 – to Present',
             description:
                 'Develop the SPA in React JS framework, working with Redux architecture using complex Object-Oriented concepts in improving the performance of the websites.',
+            languages:
+                'Languages/Frameworks/Libraries: HTML5, CSS3, SAAS/SCSS, JavaScript ES5-10, TypeScript, ReactJS, Redux, NodeJS',
+            tools: 'Tools: VS Code, Git/Gitlab, Webpack, Storybook, Figma, MongoDBCompas, YouTrack',
         },
     ],
     portfolios: [
@@ -157,40 +174,40 @@ export const data = {
     ],
     skills: [
         {
-            title: 'CMS / Frameworks / library',
+            title: 'languages',
             items: [
-                { name: 'ReactJS, Redux', progress: '45%' },
-                { name: 'React Components', progress: '45%' },
-                { name: 'Node JS', progress: '30%' },
-                { name: 'Bitrix, MODX, WordPress', progress: '70%' },
-                { name: 'Jquery', progress: '70%' },
+                { name: 'HTML5', progress: '90%', start: new Date('01.01.2019') },
+                { name: 'CSS3', progress: '90%', start: new Date('01.01.2019') },
+                { name: 'JavaScript ES5/6/7', progress: '70%', start: new Date('01.01.2019') },
+                { name: 'TypeScript', progress: '55%', start: new Date('01.01.2021') },
+                { name: 'PHP7+', progress: '40%', start: new Date('01.01.2019') },
+                { name: 'SQL', progress: '40%', start: new Date('01.01.2019') },
             ],
         },
         {
-            title: 'languages',
+            title: 'CMS / Frameworks / library',
             items: [
-                { name: 'HTML5', progress: '90%' },
-                { name: 'CSS3', progress: '90%' },
-                { name: 'JavaScript ES5/6/7', progress: '70%' },
-                { name: 'TypeScript', progress: '55%' },
-                { name: 'PHP7+', progress: '40%' },
-                { name: 'SQL', progress: '40%' },
+                { name: 'ReactJS', progress: '45%', start: new Date('02.01.2020') },
+                { name: 'Redux', progress: '45%', start: new Date('02.01.2020') },
+                { name: 'Node JS', progress: '30%', start: new Date('05.01.2021') },
+                { name: 'Bitrix, MODX, WordPress', progress: '70%', start: new Date('01.01.2019') },
+                { name: 'Jquery', progress: '70%', start: new Date('01.01.2019') },
             ],
         },
         {
             title: 'other',
             items: [
-                { name: 'Linux', progress: '40%' },
-                { name: 'Aache/Nginx', progress: '45%' },
-                { name: 'Git', progress: '70%' },
-                { name: 'Webpack/Gulp', progress: '40%' },
-                { name: 'SASS/LESS', progress: '70%' },
-                { name: 'Storybook', progress: '50%' },
-                { name: 'MongoDB', progress: '20%' },
+                { name: 'Linux', progress: '40%', start: new Date('01.01.2019') },
+                { name: 'Aache/Nginx', progress: '45%', start: new Date('01.01.2019') },
+                { name: 'Git', progress: '70%', start: new Date('05.01.2019') },
+                { name: 'Webpack/Gulp', progress: '40%', start: new Date('08.01.2019') },
+                { name: 'SASS/SCSS', progress: '70%', start: new Date('01.01.2020') },
+                { name: 'Storybook', progress: '50%', start: new Date('05.01.2021') },
+                { name: 'MongoDB', progress: '20%', start: new Date('05.01.2021') },
             ],
         },
     ],
-    languages: [
+    langs: [
         {
             language: 'english',
             level: 'A2',
