@@ -31,7 +31,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && DEL /S /Q dist && move build dist && DEL /S /Q build",
+    "build": "DEL /S /Q dist && DEL /S /Q build && react-scripts build && move build dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
