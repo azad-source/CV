@@ -10,12 +10,12 @@ export const Languages = () => {
     return (
         <Page id="languages">
             <h2>Languages</h2>
-            <ul className={styles.items}>
+            <ul className={styles.list}>
                 {languages.map(({ language, level, description }) => (
                     <li key={language} className={styles.item}>
                         <span className={styles.item__name}>{capitalize(language)}:</span>
-                        <span>
-                            ( {level} {description} )
+                        <span className={styles.item__value}>
+                            {level} {description}
                         </span>
                     </li>
                 ))}
