@@ -38,16 +38,13 @@ export const Skills = () => {
                     <img src={css_logo} alt="css" className={styles.stackItem_img} />
                 </div>
                 <div className={styles.stackItem}>
-                    <img src={sass_logo} alt="sass" className={styles.stackItem_img} />
-                </div>
-                <div className={styles.stackItem}>
-                    <img src={less_logo} alt="less" className={styles.stackItem_img} />
-                </div>
-                <div className={styles.stackItem}>
                     <img src={react_logo} alt="react" className={styles.stackItem_img} />
                 </div>
                 <div className={styles.stackItem}>
                     <img src={redux_logo} alt="redux" className={styles.stackItem_img} />
+                </div>
+                <div className={styles.stackItem}>
+                    <img src={typescript_logo} alt="typescript" className={styles.stackItem_img} />
                 </div>
                 <div className={styles.stackItem}>
                     <img src={storybook_logo} alt="storybook" className={styles.stackItem_img} />
@@ -56,7 +53,13 @@ export const Skills = () => {
                     <img src={jest_logo} alt="jest" className={styles.stackItem_img} />
                 </div>
                 <div className={styles.stackItem}>
-                    <img src={typescript_logo} alt="typescript" className={styles.stackItem_img} />
+                    <img src={mongo_logo} alt="mongo" className={styles.stackItem_img} />
+                </div>
+                <div className={styles.stackItem}>
+                    <img src={sass_logo} alt="sass" className={styles.stackItem_img} />
+                </div>
+                <div className={styles.stackItem}>
+                    <img src={less_logo} alt="less" className={styles.stackItem_img} />
                 </div>
                 <div className={styles.stackItem}>
                     <img src={node_logo} alt="node" className={styles.stackItem_img} />
@@ -72,9 +75,6 @@ export const Skills = () => {
                 </div>
                 <div className={styles.stackItem}>
                     <img src={linux_logo} alt="linux" className={styles.stackItem_img} />
-                </div>
-                <div className={styles.stackItem}>
-                    <img src={mongo_logo} alt="mongo" className={styles.stackItem_img} />
                 </div>
             </div>
             <div className={styles.root}>
