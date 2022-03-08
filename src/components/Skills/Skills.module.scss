@@ -19,7 +19,7 @@
 
 .stackList {
   display: grid;
-  grid-template-columns: repeat(15, 1fr);
+  grid-template-columns: repeat(16, 1fr);
   align-items: center;
   margin-bottom: 10px;
   background: #333;
@@ -114,11 +114,11 @@
   }
 
   .stackList {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     background-color: unset;
 
     .stackItem {
-      padding: 10px 15px;
+      padding: 5px 12px;
     }
   }
 }

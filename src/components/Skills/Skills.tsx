@@ -6,6 +6,7 @@ import { capitalize } from 'helpers/stringHelper';
 import react_logo from 'images/stack/react.png';
 import redux_logo from 'images/stack/redux.png';
 import storybook_logo from 'images/stack/storybook.png';
+import jest_logo from 'images/stack/jest.png';
 import typescript_logo from 'images/stack/typescript.png';
 import node_logo from 'images/stack/node.png';
 import js_logo from 'images/stack/javascript.png';
@@ -50,6 +51,9 @@ export const Skills = () => {
                 </div>
                 <div className={styles.stackItem}>
                     <img src={storybook_logo} alt="storybook" className={styles.stackItem_img} />
+                </div>
+                <div className={styles.stackItem}>
+                    <img src={jest_logo} alt="jest" className={styles.stackItem_img} />
                 </div>
                 <div className={styles.stackItem}>
                     <img src={typescript_logo} alt="typescript" className={styles.stackItem_img} />
