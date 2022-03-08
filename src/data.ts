@@ -16,7 +16,7 @@ export const contactsInfo = {
     country: 'Russia',
     eMail: 'azad_63_mamedov@mail.ru',
     phone: '+7 927 695 15 62',
-    linkedin: 'https://www.linkedin.com/in/azad-mamedov-0563489a/',
+    linkedin: 'https://www.linkedin.com/in/azad-mamedov/',
 };
 
 export const data = {
