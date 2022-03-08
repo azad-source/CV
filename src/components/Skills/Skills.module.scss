@@ -17,6 +17,25 @@
   }
 }
 
+.stackList {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  align-items: center;
+  margin-bottom: 10px;
+  background: #333;
+
+  .stackItem {
+    overflow: hidden;
+    padding: 15px;
+
+    &_img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+  }
+}
+
 .item {
   position: relative;
   color: $main-text-color;
@@ -74,6 +93,14 @@
       margin-bottom: 20px;
     }
   }
+
+  .stackList {
+    grid-template-columns: repeat(8, 1fr);
+
+    .stackItem {
+      padding: 20px;
+    }
+  }
 }
 
 @media screen and (map-get($breakpoints, mobile)) {
@@ -83,6 +110,15 @@
     .block {
       width: 100%;
       margin-bottom: 20px;
+    }
+  }
+
+  .stackList {
+    grid-template-columns: repeat(5, 1fr);
+    background-color: unset;
+
+    .stackItem {
+      padding: 10px 15px;
     }
   }
 }
