@@ -119,10 +119,10 @@ export const data = {
             company: 'SKB Kontur',
             date: 'mar 2021 – to Present',
             description:
-                'Develop the SPA in React JS framework, working with Redux architecture using complex Object-Oriented concepts in improving the performance of the websites.',
+                "I develop a UI for the company's EDI products on React.js framework with Redux and using typescript. I build projects on webpack for new projects or configure an exisitng. I do test coverage the code by using jest (unit testing), creevey (screenshot testing) and storybook, doing a code review. I prepare html responsive web design for any device from figma mockups.",
             languages:
-                'Languages/Frameworks/Libraries: HTML5, CSS3, SAAS/SCSS, JavaScript ES5-10, TypeScript, ReactJS, Redux, NodeJS',
-            tools: 'Tools: VS Code, Git/Gitlab, Webpack, Storybook, Figma, MongoDBCompas, YouTrack',
+                'Languages/Frameworks/Libraries: HTML5, CSS3, SAAS/SCSS, JavaScript, TypeScript, ReactJS, Redux, NodeJS',
+            tools: 'Tools: VS Code, Gitlab, Webpack, Storybook, Jest, Figma, MongoDBCompas, YouTrack',
         },
     ],
     portfolios: [
@@ -178,7 +178,7 @@ export const data = {
             items: [
                 { name: 'HTML5', progress: '90%', start: new Date('01.01.2019') },
                 { name: 'CSS3', progress: '90%', start: new Date('01.01.2019') },
-                { name: 'JavaScript ES5/6/7', progress: '70%', start: new Date('01.01.2019') },
+                { name: 'JavaScript', progress: '75%', start: new Date('01.01.2019') },
                 { name: 'TypeScript', progress: '55%', start: new Date('01.01.2021') },
                 { name: 'PHP7+', progress: '40%', start: new Date('01.01.2019') },
                 { name: 'SQL', progress: '40%', start: new Date('01.01.2019') },
@@ -187,8 +187,9 @@ export const data = {
         {
             title: 'CMS / Frameworks / library',
             items: [
-                { name: 'ReactJS', progress: '45%', start: new Date('02.01.2020') },
-                { name: 'Redux', progress: '45%', start: new Date('02.01.2020') },
+                { name: 'ReactJS', progress: '75%', start: new Date('02.01.2020') },
+                { name: 'React Native', progress: '15%', start: new Date('02.01.2022') },
+                { name: 'Redux', progress: '65%', start: new Date('02.01.2020') },
                 { name: 'Node JS', progress: '30%', start: new Date('05.01.2021') },
                 { name: 'Bitrix, MODX, WordPress', progress: '70%', start: new Date('01.01.2019') },
                 { name: 'Jquery', progress: '70%', start: new Date('01.01.2019') },
@@ -203,6 +204,8 @@ export const data = {
                 { name: 'Webpack/Gulp', progress: '40%', start: new Date('08.01.2019') },
                 { name: 'SASS/SCSS', progress: '70%', start: new Date('01.01.2020') },
                 { name: 'Storybook', progress: '50%', start: new Date('05.01.2021') },
+                { name: 'jest', progress: '30%', start: new Date('01.02.2021') },
+                { name: 'creevey', progress: '50%', start: new Date('01.11.2021') },
                 { name: 'MongoDB', progress: '20%', start: new Date('05.01.2021') },
             ],
         },
