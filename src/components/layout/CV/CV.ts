@@ -87,7 +87,7 @@ export class CV {
         skills.forEach(({ items }) => {
             items.forEach((item) => {
                 skillsArr.push(
-                    `${item.name} (${new Date().getFullYear() - item.start.getFullYear()} year)`,
+                    `${item.name}`,
                 );
             });
         });
