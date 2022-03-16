@@ -119,7 +119,7 @@ export const data = {
             company: 'SKB Kontur',
             date: 'mar 2021 – to Present',
             description:
-                "I develop a UI for the company's EDI products on React.js framework with Redux and using typescript. I build projects on webpack for new projects or configure an exisitng. I do test coverage the code by using jest (unit testing), creevey (screenshot testing) and storybook, doing a code review. I prepare html responsive web design for any device from figma mockups.",
+                "I develop a UI for the company's EDI products on React.js framework with Redux and using typescript. I build projects on webpack or configure an exisiting one. I cover the code with tests using jest (unit testing), creevey (screenshot testing) and storybook, as well as doing a code review. I prepare html responsive web designs for any device from figma mockups.",
             languages:
                 'Languages/Frameworks/Libraries: HTML5, CSS3, SAAS/SCSS, JavaScript, TypeScript, ReactJS, Redux, NodeJS',
             tools: 'Tools: VS Code, Gitlab, Webpack, Storybook, Jest, Figma, MongoDBCompas, YouTrack',
