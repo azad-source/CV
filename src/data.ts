@@ -110,7 +110,7 @@ export const data = {
             company: 'Plusmedia - Samara',
             date: 'jan 2019 – feb 2021',
             description:
-                'Development, support and seo promotion of websites of any complexity on cms modx, bitrix, simpla, wordperss, joomla. Working with API of modx and bitrix. Preparing of environment for the website release, installation of modules (nginx, apache, php, sql etc) and their configuration. Request processing speed optimization on the website. Languages used in development: html5, css3, javascript, jquery, php, mysql. At the moment I am studying the development of websites on React.',
+                'Development, support and seo facilitating of websites of any complexity on cms modx, bitrix, simpla, wordperss, joomla. Working with API of modx and bitrix. Preparing of environment for the website release, installation of modules (nginx, apache, php, sql etc) and their configuration. Request processing speed optimization on the website. Languages used in development: html5, css3, javascript, jquery, php, mysql. At the moment I am studying the development of websites on React.',
             languages: 'Languages: HTML5, CSS3, Jquery, PHP7.x, Mysql',
             tools: 'Git, Photoshop, Figma, Sublime Text',
         },
