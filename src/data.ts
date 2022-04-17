@@ -101,7 +101,7 @@ export const data = {
             company: 'Safran SMARTEC - Samara',
             date: 'feb  2014 - dec 2018',
             description:
-                'Structural linear and nonlinear analysis of the intermediate engine mount for LEAP-1, starting from the creation of finite element model, application of boundary conditions and definition materials property, and ending with the launch of the calculation and post processing of results. Life time calculation and modal analysis to determine natural frequencies. Software I used: ICEM (to create the mesh) Patran (to create meshing and boundary conditions) Ansys Workbench (for geometry preparation, to create mesh, boundary condition and to start the calculation) Samcef (to create condition to the limits and launch of the linear / non-linear computation (asef / mechanics)) Abaqus (to create boundary condition and to start the computation linear / nonlinear) At the end, an analysis of the results, and a report.',
+                "I've been doing the structural linear and nonlinear analysis of the intermediate engine mount. I've been creating of finite element model with application of boundary conditions and definition materials property. I also ran calculations and did post-processing of the calculation results.",
             languages: null,
             tools: 'Software: ICEM, Patran, Ansys Workbench, Samcef, Abaqus',
         },
@@ -110,7 +110,7 @@ export const data = {
             company: 'Plusmedia - Samara',
             date: 'jan 2019 – feb 2021',
             description:
-                'Development, support and seo facilitating of websites of any complexity on cms modx, bitrix, simpla, wordperss, joomla. Working with API of modx and bitrix. Preparing of environment for the website release, installation of modules (nginx, apache, php, sql etc) and their configuration. Request processing speed optimization on the website. Languages used in development: html5, css3, javascript, jquery, php, mysql. At the moment I am studying the development of websites on React.',
+                "I've been developing, supporting and seo facilitating of websites on cms modx, bitrix, wordperss, joomla. I've been preparing of environment for the website release, installation of modules (nginx, apache, php, sql etc) and their configuration. Languages used in development: html5, css3, javascript, jquery, php, mysql.",
             languages: 'Languages: HTML5, CSS3, Jquery, PHP7.x, Mysql',
             tools: 'Git, Photoshop, Figma, Sublime Text',
         },
@@ -121,7 +121,7 @@ export const data = {
             description:
                 "I am developing a UI for the company's EDI products on React.js framework with Redux and using typescript. I build projects on webpack or configure an exisiting one. I cover the code with tests using jest (unit testing), creevey (screenshot testing) and storybook, as well as doing a code review. I prepare html responsive web designs for any device from figma mockups.",
             languages:
-                'Languages/Frameworks/Libraries: HTML5, CSS3, SAAS/SCSS, JavaScript, TypeScript, ReactJS, Redux, NodeJS',
+                'Languages/Frameworks/Libraries: HTML5, CSS3, SASS/SCSS, JavaScript, TypeScript, ReactJS, Redux',
             tools: 'Tools: VS Code, Gitlab, Webpack, Storybook, Jest, Figma, MongoDBCompas, YouTrack',
         },
     ],
