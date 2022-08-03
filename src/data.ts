@@ -122,7 +122,7 @@ export const data = {
                 "I am developing a UI for the company's EDI products on React.js framework with Redux and using typescript. I build projects on webpack or configure an exisiting one. I cover the code with tests using jest (unit testing), creevey (screenshot testing) and storybook, as well as doing a code review. I prepare html responsive web designs for any device from figma mockups.",
             languages:
                 'Languages/Frameworks/Libraries: HTML5, CSS3, SASS/SCSS, JavaScript, TypeScript, ReactJS, Redux',
-            tools: 'Tools: VS Code, Gitlab, Webpack, Storybook, Jest, Figma, MongoDBCompas, YouTrack',
+            tools: 'Tools: VS Code, Gitlab, Webpack, Storybook, Creevey, Jest, Figma, MongoDBCompas, YouTrack',
         },
     ],
     portfolios: [
@@ -179,7 +179,7 @@ export const data = {
                 { name: 'HTML5', progress: '90%', start: new Date('01.01.2019') },
                 { name: 'CSS3', progress: '90%', start: new Date('01.01.2019') },
                 { name: 'JavaScript', progress: '75%', start: new Date('01.01.2019') },
-                { name: 'TypeScript', progress: '55%', start: new Date('01.01.2021') },
+                { name: 'TypeScript', progress: '60%', start: new Date('01.01.2021') },
                 { name: 'PHP7+', progress: '40%', start: new Date('01.01.2019') },
                 { name: 'SQL', progress: '40%', start: new Date('01.01.2019') },
             ],
@@ -189,6 +189,7 @@ export const data = {
             items: [
                 { name: 'ReactJS', progress: '75%', start: new Date('02.01.2020') },
                 { name: 'React Native', progress: '15%', start: new Date('02.01.2022') },
+                { name: 'Next.js', progress: '35%', start: new Date('03.01.2022') },
                 { name: 'Redux', progress: '65%', start: new Date('02.01.2020') },
                 { name: 'Node JS', progress: '30%', start: new Date('05.01.2021') },
                 { name: 'Bitrix, MODX, WordPress', progress: '70%', start: new Date('01.01.2019') },
@@ -200,12 +201,12 @@ export const data = {
             items: [
                 { name: 'Linux', progress: '40%', start: new Date('01.01.2019') },
                 { name: 'Aache/Nginx', progress: '45%', start: new Date('01.01.2019') },
-                { name: 'Git', progress: '70%', start: new Date('05.01.2019') },
+                { name: 'Git', progress: '80%', start: new Date('05.01.2019') },
                 { name: 'Webpack/Gulp', progress: '40%', start: new Date('08.01.2019') },
                 { name: 'SASS/SCSS', progress: '70%', start: new Date('01.01.2020') },
-                { name: 'Storybook', progress: '50%', start: new Date('05.01.2021') },
+                { name: 'Storybook', progress: '65%', start: new Date('05.01.2021') },
                 { name: 'jest', progress: '30%', start: new Date('01.02.2021') },
-                { name: 'creevey', progress: '50%', start: new Date('01.11.2021') },
+                { name: 'creevey', progress: '70%', start: new Date('01.11.2021') },
                 { name: 'MongoDB', progress: '20%', start: new Date('05.01.2021') },
             ],
         },
@@ -213,7 +214,7 @@ export const data = {
     langs: [
         {
             language: 'english',
-            level: 'A2',
+            level: 'B1',
             description: 'intermediate, conversational, competent',
         },
         {
