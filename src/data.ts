@@ -208,6 +208,7 @@ export const data = {
                 { name: 'jest', progress: '30%', start: new Date('01.02.2021') },
                 { name: 'creevey', progress: '70%', start: new Date('01.11.2021') },
                 { name: 'MongoDB', progress: '20%', start: new Date('05.01.2021') },
+                { name: 'CI/CD gitlab', progress: '40%', start: new Date('01.01.2022') },
             ],
         },
     ],
