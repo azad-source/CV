@@ -10,12 +10,12 @@ import portfolio_timelineDashboard from './images/portfolios/timeline-dashboard.
 import portfolio_achord from './images/portfolios/achord.png';
 
 export const contactsInfo = {
-    post: '443058',
-    city: 'Samara',
-    region: 'Samarskaya oblast',
-    country: 'Russia',
+    post: '130000',
+    city: 'Aktau',
+    region: 'Mangistau region',
+    country: 'Kazakhstan',
     eMail: 'azad_63_mamedov@mail.ru',
-    phone: '+7 927 695 15 62',
+    phone: '+7 705 279 69 81',
     linkedin: 'https://www.linkedin.com/in/azad-mamedov/',
 };
 
@@ -122,7 +122,7 @@ export const data = {
                 "I am developing a UI for the company's EDI products on React.js framework with Redux and using typescript. I build projects on webpack or configure an exisiting one. I cover the code with tests using jest (unit testing), creevey (screenshot testing) and storybook, as well as doing a code review. I prepare html responsive web designs for any device from figma mockups.",
             languages:
                 'Languages/Frameworks/Libraries: HTML5, CSS3, SASS/SCSS, JavaScript, TypeScript, ReactJS, Redux',
-            tools: 'Tools: VS Code, Gitlab, Webpack, Storybook, Creevey, Jest, Figma, MongoDBCompas, YouTrack',
+            tools: 'Tools: VS Code, Gitlab, Gitlab CI/CD, Webpack, Storybook, Creevey, Jest, Figma, MongoDBCompas, YouTrack',
         },
     ],
     portfolios: [
@@ -188,6 +188,7 @@ export const data = {
             title: 'CMS / Frameworks / library',
             items: [
                 { name: 'ReactJS', progress: '75%', start: new Date('02.01.2020') },
+                { name: 'Vue.js', progress: '25%', start: new Date('04.01.2022') },
                 { name: 'React Native', progress: '15%', start: new Date('02.01.2022') },
                 { name: 'Next.js', progress: '35%', start: new Date('03.01.2022') },
                 { name: 'Redux', progress: '65%', start: new Date('02.01.2020') },
