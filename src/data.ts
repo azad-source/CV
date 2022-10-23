@@ -8,6 +8,7 @@ import portfolio_virtualKeyboard from './images/portfolios/virtual-keyboard.png'
 import portfolio_pureWater from './images/portfolios/pure-water.png';
 import portfolio_timelineDashboard from './images/portfolios/timeline-dashboard.png';
 import portfolio_achord from './images/portfolios/achord.png';
+import portfolio_notes from './images/portfolios/notes.png';
 
 export const contactsInfo = {
     post: '130000',
@@ -168,6 +169,16 @@ export const data = {
                     name: 'Achord',
                     link: 'https://achord.ru/',
                     image: portfolio_achord,
+                },
+            ],
+        },
+        {
+            title: 'Vue.js',
+            items: [
+                {
+                    name: 'Task manager ',
+                    link: 'https://azad-source.github.io/notes/dist/',
+                    image: portfolio_notes,
                 },
             ],
         },
