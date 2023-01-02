@@ -9,6 +9,7 @@ import portfolio_pureWater from './images/portfolios/pure-water.png';
 import portfolio_timelineDashboard from './images/portfolios/timeline-dashboard.png';
 import portfolio_achord from './images/portfolios/achord.png';
 import portfolio_notes from './images/portfolios/notes.png';
+import portfolio_recipes from './images/portfolios/recipes.png';
 
 export const contactsInfo = {
     post: '130000',
@@ -176,9 +177,19 @@ export const data = {
             title: 'Vue.js',
             items: [
                 {
-                    name: 'Task manager ',
+                    name: 'Task manager',
                     link: 'https://azad-source.github.io/notes/dist/',
                     image: portfolio_notes,
+                },
+            ],
+        },
+        {
+            title: 'MEVN (Vue Vuex Node Express MongoDB)',
+            items: [
+                {
+                    name: 'Recipe manager',
+                    link: 'https://azad-source.github.io/recipes/dist/',
+                    image: portfolio_recipes,
                 },
             ],
         },
