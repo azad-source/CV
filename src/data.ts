@@ -16,7 +16,7 @@ export const contactsInfo = {
     city: 'Aktau',
     region: 'Mangistau region',
     country: 'Kazakhstan',
-    eMail: 'azad_63_mamedov@mail.ru',
+    email: 'azad.63.mamedov@gmail.com',
     phone: '+7 705 279 69 81',
     linkedin: 'https://www.linkedin.com/in/azad-mamedov/',
 };
@@ -46,8 +46,8 @@ export const data = {
         },
         {
             title: 'e-mail',
-            href: 'mailto:azad_63_mamedov@mail.ru',
-            value: contactsInfo.eMail,
+            href: `mailto:${contactsInfo.email}`,
+            value: contactsInfo.email,
             icon: faEnvelope,
         },
         {
@@ -102,8 +102,13 @@ export const data = {
             employe: 'Mechanical Engineer',
             company: 'Safran SMARTEC - Samara',
             date: 'feb  2014 - dec 2018',
-            description:
-                "I've been doing the structural linear and nonlinear analysis of the intermediate engine mount. I've been creating of finite element model with application of boundary conditions and definition materials property. I also ran calculations and did post-processing of the calculation results.",
+            description: `As an integral member of the Safran SMARTEC team for five years, my primary responsibilities revolved around performing structural linear and nonlinear analysis on engine components. Throughout my tenure, I have effectively contributed to the following key tasks:
+                Linear and Nonlinear Analysis: I conducted comprehensive structural linear and nonlinear analysis on intricate engine nodes, meticulously assessing their mechanical behaviors and responses under varying operational conditions. This involved utilizing advanced analysis techniques to ensure the reliability and robustness of engine components.
+                Finite Element Modeling: I was tasked with developing intricate finite element models, incorporating accurate material properties and load distributions. These models were pivotal in simulating real-world scenarios, allowing us to predict how engine nodes would perform and react under different stress factors.
+                Material Property Determination: Collaborating closely with material experts, I assisted in identifying and specifying material properties critical for accurate simulations. This process ensured that the simulations closely mirrored the actual behavior of the engine components, enhancing the precision of our analysis.
+                Calculation Execution: I successfully executed complex simulations by launching the finite element models on specified operating conditions. This step involved setting up and configuring the simulations to accurately represent real-world scenarios, capturing both expected and unexpected performance nuances.
+                Results Reporting: Post-simulation, I compiled comprehensive and detailed reports highlighting the outcomes of our analyses. These reports encompassed vital insights into the structural integrity, stress distribution, and overall performance of the engine nodes under various loads and conditions. Clear and concise visualization of results helped guide engineering decisions and optimizations.
+                In summary, my role at Safran SMARTEC involved a diverse range of responsibilities, from crafting intricate finite element models to conducting thorough linear and nonlinear analyses of engine nodes. The culmination of these efforts was the creation of insightful reports that facilitated informed decision-making and further advancements in engine component design and performance. My five-year journey at Safran SMARTEC has deepened my expertise in structural analysis and solidified my commitment to contributing to cutting-edge engineering solutions.`,
             languages: null,
             tools: 'Software: ICEM, Patran, Ansys Workbench, Samcef, Abaqus',
         },
@@ -111,8 +116,15 @@ export const data = {
             employe: 'Web Developer',
             company: 'Plusmedia - Samara',
             date: 'jan 2019 – feb 2021',
-            description:
-                "I've been developing, supporting and seo facilitating of websites on cms modx, bitrix, wordperss, joomla. I've been preparing of environment for the website release, installation of modules (nginx, apache, php, sql etc) and their configuration. Languages used in development: html5, css3, javascript, jquery, php, mysql.",
+            description: `During my enriching two-year tenure at Plusmedia, my role primarily encompassed website development and optimization. I adeptly managed a diverse set of responsibilities, contributing significantly to the growth and success of the company's digital presence. My key responsibilities included:
+                Website Design and Development: I played an integral role in the design and development of visually appealing and user-friendly websites. Leveraging my proficiency in HTML, CSS, and JavaScript, I crafted engaging and responsive web layouts that resonated with the target audience, enhancing user experience.
+                Website Optimization: As part of the optimization process, I meticulously analyzed and fine-tuned existing websites to enhance their speed, performance, and overall user satisfaction. Implementing techniques such as image compression, code minification, and caching, I ensured seamless browsing experiences for site visitors.
+                CMS Expertise: I demonstrated expertise in various content management systems (CMS) including Bitrix, MODX, Joomla, and WordPress. This proficiency allowed me to seamlessly navigate these platforms, customize functionalities, and create engaging and dynamic web content.
+                Site Deployment and Migration: I successfully managed the deployment and seamless migration of websites across different environments. This involved meticulous planning, testing, and execution to ensure that the transition was smooth and free of disruptions.
+                Server Configuration: I skillfully configured servers using technologies like Nginx and Apache, optimizing them for website hosting and performance. My responsibilities included setting up virtual hosts, SSL certificates, and other server-related configurations.
+                Package Installation: I took charge of installing and configuring essential software packages required for website operation. This included database management systems, scripting languages, and other server-side components necessary for the seamless functioning of websites.
+                Throughout my tenure, I continuously collaborated with cross-functional teams, including designers, developers, and content creators, to ensure the successful execution of projects. My commitment to delivering high-quality websites, optimizing user experiences, and mastering a range of CMS platforms has greatly contributed to Plusmedia's reputation as a leading digital solutions provider.
+                In summary, my two-year journey at Plusmedia has honed my skills in website design, optimization, CMS management, and server configuration. My ability to deploy, optimize, and maintain websites has played a pivotal role in enhancing Plusmedia's online presence and delivering exceptional digital experiences to clients and end-users alike.`,
             languages: 'Languages: HTML5, CSS3, Jquery, PHP7.x, Mysql',
             tools: 'Git, Photoshop, Figma, Sublime Text',
         },
@@ -120,11 +132,19 @@ export const data = {
             employe: 'Frontend developer',
             company: 'SKB Kontur',
             date: 'mar 2021 – to Present',
-            description:
-                "I am developing a UI for the company's EDI products on React.js framework with Redux and using typescript. I build projects on webpack or configure an exisiting one. I cover the code with tests using jest (unit testing), creevey (screenshot testing) and storybook, as well as doing a code review. I prepare html responsive web designs for any device from figma mockups.",
+            description: `As a Frontend Developer at SKB Kontur, I would embrace the following roles and responsibilities to contribute effectively to the team:
+                Building Interactive User Interfaces: Leveraging my expertise in ReactJs, Typescript, and JavaScript, I would be responsible for creating captivating and responsive user interfaces that deliver an exceptional user experience.
+                State Management and Data Flow: Utilizing Redux, including TK, TK Query, Saga, and Thunk, I would manage state and data flow within the application, ensuring efficient communication between components and seamless application behavior.
+                Testing and Quality Assurance: Employing Playwright and Jest, I would design and implement comprehensive unit tests and end-to-end tests, validating the functionality and performance of the application to maintain high code quality and stability.
+                Component Library Development: Using Storybook, I would create and maintain a well-organized and visually appealing component library, facilitating seamless collaboration and enhancing the development process.
+                CSS Styling and Adaptation: Implementing SCSS, I would design adaptable layouts that ensure cross-browser compatibility and optimal performance across various devices, maintaining a consistent and visually pleasing user interface.
+                Collaboration and Communication: Engaging in regular communication with cross-functional teams, I would actively participate in discussions, share insights, and contribute to decision-making processes to achieve project goals effectively.
+                Code Optimization and Performance: Continuously optimizing and refining the codebase to enhance application performance, I would apply best practices and explore innovative solutions to create a faster and more efficient frontend experience.
+                Problem Solving and Troubleshooting: Addressing technical challenges and bugs, I would analyze and resolve issues promptly, ensuring a smooth user experience and minimizing disruptions.
+                By embracing these responsibilities and utilizing my skills in ReactJs, Typescript, Redux, Playwright, Jest, SCSS, and more, I am dedicated to driving SKB Kontur's frontend development to new heights, delivering top-tier web applications that align with the company's goals and values.`,
             languages:
-                'Languages/Frameworks/Libraries: HTML5, CSS3, SASS/SCSS, JavaScript, TypeScript, ReactJS, Redux',
-            tools: 'Tools: VS Code, Gitlab, Gitlab CI/CD, Webpack, Storybook, Creevey, Jest, Figma, MongoDBCompas, YouTrack',
+                'Languages/Frameworks/Libraries: HTML5, CSS3, SASS/SCSS, JavaScript, TypeScript, ReactJS, RTK, RTK Query, Redux Thunk, Redux Saga, Mobx',
+            tools: 'Tools: VS Code, Gitlab, Gitlab CI/CD, Webpack, Storybook, Creevey, Jest, Playwright, Figma, YouTrack',
         },
     ],
     portfolios: [
@@ -208,13 +228,14 @@ export const data = {
             title: 'CMS / Frameworks / library',
             items: [
                 { name: 'ReactJS', progress: '80%', start: new Date('02.01.2020') },
-                { name: 'Vue.js', progress: '25%', start: new Date('04.01.2022') },
-                { name: 'React Native', progress: '10%', start: new Date('02.01.2022') },
+                { name: 'Vue.js', progress: '20%', start: new Date('04.01.2022') },
                 { name: 'Next.js', progress: '35%', start: new Date('03.01.2022') },
-                { name: 'Redux', progress: '75%', start: new Date('02.01.2020') },
-                { name: 'Node JS', progress: '30%', start: new Date('05.01.2021') },
-                { name: 'Bitrix, MODX, WordPress', progress: '70%', start: new Date('01.01.2019') },
-                { name: 'Jquery', progress: '70%', start: new Date('01.01.2019') },
+                { name: 'Redux Tool Kit', progress: '80%', start: new Date('02.01.2020') },
+                { name: 'Redux Tool Kit Query', progress: '80%', start: new Date('02.01.2020') },
+                { name: 'Redux Thunk', progress: '75%', start: new Date('02.01.2020') },
+                { name: 'Redux Saga', progress: '55%', start: new Date('02.01.2021') },
+                { name: 'Mobx', progress: '25%', start: new Date('02.01.2021') },
+                { name: 'Node JS', progress: '20%', start: new Date('05.01.2021') },
             ],
         },
         {
@@ -226,6 +247,7 @@ export const data = {
                 { name: 'Webpack/Gulp', progress: '40%', start: new Date('08.01.2019') },
                 { name: 'SASS/SCSS', progress: '70%', start: new Date('01.01.2020') },
                 { name: 'Storybook', progress: '65%', start: new Date('05.01.2021') },
+                { name: 'Playwright', progress: '40%', start: new Date('01.10.2022') },
                 { name: 'jest', progress: '30%', start: new Date('01.02.2021') },
                 { name: 'creevey', progress: '70%', start: new Date('01.11.2021') },
                 { name: 'MongoDB', progress: '20%', start: new Date('05.01.2021') },

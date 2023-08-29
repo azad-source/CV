@@ -18,7 +18,7 @@ const {
     // position,
 } = data;
 
-const { city, post, country, eMail, phone, linkedin } = contactsInfo;
+const { city, post, country, email, phone, linkedin } = contactsInfo;
 
 const space = (value: number = 20) => new Paragraph({ spacing: { after: value } });
 
@@ -86,9 +86,7 @@ export class CV {
 
         skills.forEach(({ items }) => {
             items.forEach((item) => {
-                skillsArr.push(
-                    `${item.name}`,
-                );
+                skillsArr.push(`${item.name}`);
             });
         });
 
@@ -115,7 +113,7 @@ export class CV {
 
                         // Contacts
                         this.text(`${city} ${post}, ${country}`, '555555', 22),
-                        this.text(eMail, '0366d6', 22),
+                        this.text(email, '0366d6', 22),
                         this.text(phone, '555555', 22),
                         this.text(linkedin, '0366d6', 22),
 
